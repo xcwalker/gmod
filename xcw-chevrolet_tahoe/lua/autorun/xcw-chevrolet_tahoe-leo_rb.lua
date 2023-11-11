@@ -279,8 +279,7 @@ EMV.Positions = {
     [5] = {Vector(39.25, -107.5, 56), Angle(0, 0, 0), "brake"},
     [6] = {Vector(40, -107.5, 45.5), Angle(0, 0, 0), "brake"},
     [7] = {Vector(-39.25, -107.5, 56), Angle(0, 0, 0), "brake"},
-    [8] = {Vector(-40, -107.5, 45.5), Angle(0, 0, 0), "brake"},
-    [9] = {Vector(-29, -114, 36), Angle(0, 0, 0), "brake"}
+    [8] = {Vector(-40, -107.5, 45.5), Angle(0, 0, 0), "brake"}
 }
 
 EMV.Sections = {
@@ -409,6 +408,14 @@ PI.Meta = {
         Scale = 1.5,
         WMult = 1.2
     },
+    brake_wide = {
+        AngleOffset = 90,
+        W = 25,
+        H = 8,
+        Sprite = "sprites/emv/blank",
+        Scale = 1.5,
+        WMult = 1.2
+    },
     indicator = {
         AngleOffset = -90,
         W = 12,
@@ -428,18 +435,21 @@ PI.Positions = {
     [6] = {Vector(-39.25, -107.5, 56), Angle(0, 0, 0), "brake"},
     [7] = {Vector(40, -107.5, 45.5), Angle(0, 0, 0), "brake"},
     [8] = {Vector(-40, -107.5, 45.5), Angle(0, 0, 0), "brake"},
-    [9] = {Vector(28.5, 93, 23.9), Angle(0, 0, 0), "indicator"},
-    [10] = {Vector(-28.5, 93, 23.9), Angle(0, 0, 0), "indicator"},
-    [11] = {Vector(38, 88, 32), Angle(0, -90, 0), "indicator"},
-    [12] = {Vector(-38, 88, 32), Angle(0, 90, 0), "indicator"}
+    [9] = {Vector(0, -103.75, 83.25), Angle(0, 0, -25), "brake_wide"},
+    [10] = {Vector(7, -103.75, 83.25), Angle(0, 0, -25), "brake_wide"},
+    [11] = {Vector(-7, -103.75, 83.25), Angle(0, 0, -25), "brake_wide"},
+    [12] = {Vector(31, 100, 40.15), Angle(0, 0, 0), "indicator"},
+    [13] = {Vector(-31, 100, 40.15), Angle(0, 0, 0), "indicator"},
+    [14] = {Vector(41.5, 99, 45.75), Angle(0, -90, 0), "indicator"},
+    [15] = {Vector(-41.5, 99, 45.75), Angle(0, 90, 0), "indicator"}
 }
 
 PI.States = {}
 
 PI.States.Headlights = {}
-PI.States.Brakes = {{5, R, 2}, {6, R, 2}, {7, R, 2}, {8, R, 2}}
-PI.States.Blink_Left = {{6, R, 3}, {10, A, 1}, {12, A, 1}}
-PI.States.Blink_Right = {{5, R, 3}, {9, A, 1}, {11, A, 1}}
+PI.States.Brakes = {{5, R, 2}, {6, R, 2}, {7, R, 2}, {8, R, 2}, {9, R, 2}, {10, R, 2}, {11, R, 2}}
+PI.States.Blink_Left = {{6, R, 3}, {13, A, 1}, {15, A, 1}}
+PI.States.Blink_Right = {{5, R, 3}, {12, A, 1}, {14, A, 1}}
 PI.States.Reverse = {{3, SW, 1}, {4, SW, 1}}
 PI.States.Running = {{1, SW, 1}, {2, SW, 1}, {5, R, 1}, {6, R, 1}}
 
@@ -455,9 +465,11 @@ local V = {
     IsEMV = true,
     EMV = EMV,
     HasPhoton = true,
-    Photon = "LW_TAHOE"
+    Photon = PI
 }
+
 list.Set("Vehicles", "xcw-chevrolet_tahoe_(leo)_r&b", V)
+
 if EMVU then
     EMVU:OverwriteIndex(VehicleName, EMV)
 end
