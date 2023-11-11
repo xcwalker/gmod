@@ -39,7 +39,8 @@ EMV.BodyGroups = {{0, 0}, -- Body
 {20, 0} -- clamped2
 }
 
-EMV.Auto = {{
+EMV.Auto = {
+	{
     ID = "CHP Whelen Liberty SX",
     Scale = 1,
     Pos = Vector(0, -10, 88.5),
@@ -138,7 +139,7 @@ EMV.Auto = {{
 }, {
     ID = "Federal Signal Valor",
     Scale = 1,
-    Pos = Vector(0, -82.5, 89.75),
+    Pos = Vector(0, -72.5, 89.75),
     Ang = Angle(0, 90, 0),
     Color1 = "RED",
     Color2 = "BLUE"
@@ -163,6 +164,227 @@ EMV.Auto = {{
     Ang = Angle(0, 90, 0),
     Color1 = "RED",
     Color2 = "BLUE"
+}, {
+    -- front - left
+    ID = "Federal Signal MicroPulse",
+    Scale = 1,
+    Pos = Vector(-6.5, 115, 19),
+    Ang = Angle(90, 0, 0),
+    Phase = "S2",
+    Color1 = "BLUE",
+    Color2 = "RED"
+}, {
+    -- front - right
+    ID = "Federal Signal MicroPulse",
+    Scale = 1,
+    Pos = Vector(8.25, 115, 19),
+    Ang = Angle(90, 0, 0),
+    Phase = "S2",
+    Color1 = "BLUE",
+    Color2 = "RED"
+}, {
+    -- rear - left
+    ID = "Federal Signal MicroPulse",
+    Scale = 0.75,
+    Pos = Vector(12, -113.2, 46),
+    Ang = Angle(90, 180, 0),
+    Phase = "S2",
+    Color1 = "RED",
+    Color2 = "RED"
+}, {
+    -- rear - right
+    ID = "Federal Signal MicroPulse",
+    Scale = 0.75,
+    Pos = Vector(-13.2, -113.2, 46),
+    Ang = Angle(90, 180, 0),
+    Phase = "S2",
+    Color1 = "RED",
+    Color2 = "RED"
+}, {
+    -- left - front
+    ID = "Federal Signal MicroPulse",
+    Scale = 1,
+    Pos = Vector(-44.5, 97, 41.5),
+    Ang = Angle(0, 70, 0),
+    Phase = "S2",
+    Color1 = "AMBER",
+    Color2 = "RED"
+
+}, {
+    -- left - rear
+    ID = "Federal Signal MicroPulse",
+    Scale = 1,
+    Pos = Vector(-45.125, -97.5, 41.5),
+    Ang = Angle(0, 95, 0),
+    Phase = "S2",
+    Color1 = "AMBER",
+    Color2 = "RED"
+}, {
+    -- right - front
+    ID = "Federal Signal MicroPulse",
+    Scale = 1,
+    Pos = Vector(45.75, 94.5, 41.5),
+    Ang = Angle(0, -70, 0),
+    Phase = "S2",
+    Color1 = "AMBER",
+    Color2 = "RED"
+
+}, {
+    -- right - rear
+    ID = "Federal Signal MicroPulse",
+    Scale = 1,
+    Pos = Vector(44.8625, -100, 41.5),
+    Ang = Angle(0, -95, 0),
+    Phase = "S2",
+    Color1 = "AMBER",
+    Color2 = "RED"
+}, {
+    -- front - left
+    ID = "Whelen Ion",
+    Scale = 1,
+    Pos = Vector(-6.5, 115, 19),
+    Ang = Angle(90, 0, 0),
+    Phase = "A",
+    Color1 = "WHITE"
+}, {
+    -- front - right
+    ID = "Whelen Ion",
+    Scale = 1,
+    Pos = Vector(8.25, 115, 19),
+    Ang = Angle(90, 0, 0),
+    Phase = "B",
+    Color1 = "WHITE"
+}, {
+    -- rear - left
+    ID = "Whelen Ion",
+    Scale = 0.75,
+    Pos = Vector(12, -113.2, 46),
+    Ang = Angle(90, 180, 0),
+    Phase = "B",
+    Color1 = "RED"
+}, {
+    -- rear - right
+    ID = "Whelen Ion",
+    Scale = 0.75,
+    Pos = Vector(-13.2, -113.2, 46),
+    Ang = Angle(90, 180, 0),
+    Phase = "A",
+    Color1 = "RED"
+}, {
+    -- left - front
+    ID = "Whelen Ion",
+    Scale = 1,
+    Pos = Vector(-45, 94.5, 41.5),
+    Ang = Angle(0, 70, 0),
+    Phase = "B",
+    Color1 = "AMBER"
+
+}, {
+    -- left - rear
+    ID = "Whelen Ion",
+    Scale = 1,
+    Pos = Vector(-44.5, -97.5, 41.5),
+    Ang = Angle(0, 95, 0),
+    Phase = "A",
+    Color1 = "AMBER"
+}, {
+    -- right - front
+    ID = "Whelen Ion",
+    Scale = 1,
+    Pos = Vector(45, 94.5, 41.5),
+    Ang = Angle(0, -70, 0),
+    Phase = "B",
+    Color1 = "AMBER"
+
+}, {
+    -- right - rear
+    ID = "Whelen Ion",
+    Scale = 1,
+    Pos = Vector(44.5, -97.5, 41.5),
+    Ang = Angle(0, -95, 0),
+    Phase = "A",
+    Color1 = "AMBER"
+}, {
+    -- front - left
+    ID = "Whelen Ion Split",
+    Scale = 1,
+    Pos = Vector(-6.5, 115, 19),
+    Ang = Angle(90, 0, 0),
+    Color1 = "WHITE",
+    Color2 = "BLUE"
+}, {
+    -- front - right
+    ID = "Whelen Ion Split",
+    Scale = 1,
+    Pos = Vector(8.25, 115, 19),
+    Ang = Angle(90, 0, 0),
+    Color1 = "WHITE",
+    Color2 = "BLUE"
+}, {
+    -- rear - left
+    ID = "Whelen Ion Split",
+    Scale = 0.75,
+    Pos = Vector(12, -113.2, 46),
+    Ang = Angle(90, 180, 0),
+    Color1 = "RED",
+    Color2 = "RED"
+}, {
+    -- rear - right
+    ID = "Whelen Ion Split",
+    Scale = 0.75,
+    Pos = Vector(-13.2, -113.2, 46),
+    Ang = Angle(90, 180, 0),
+    Color1 = "RED",
+    Color2 = "RED"
+}, {
+    -- left - front
+    ID = "Whelen Ion Split",
+    Scale = 1,
+    Pos = Vector(-45, 94.5, 41.5),
+    Ang = Angle(0, 70, 0),
+    Color1 = "AMBER",
+    Color2 = "RED"
+
+}, {
+    -- left - rear
+    ID = "Whelen Ion Split",
+    Scale = 1,
+    Pos = Vector(-44.5, -97.5, 41.5),
+    Ang = Angle(0, 95, 0),
+    Color1 = "AMBER",
+    Color2 = "RED"
+}, {
+    -- right - front
+    ID = "Whelen Ion Split",
+    Scale = 1,
+    Pos = Vector(45, 94.5, 41.5),
+    Ang = Angle(0, -70, 0),
+    Color1 = "AMBER",
+    Color2 = "RED"
+
+}, {
+    -- right - rear
+    ID = "Whelen Ion Split",
+    Scale = 1,
+    Pos = Vector(44.5, -97.5, 41.5),
+    Ang = Angle(0, -95, 0),
+    Color1 = "AMBER",
+    Color2 = "RED"
+}, {
+    ID = "TDM Front Interior Lightbar",
+    Scale = 1.1,
+    Pos = Vector(0, 28, 78),
+    Ang = Angle(0, 90, 0)
+}, {
+    ID = "Federal Signal Viper",
+    Scale = 1,
+    Pos = Vector(0, 49, 65),
+    Ang = Angle(0, 90, 0)
+}, {
+    ID = "Tomar 200S Rear Cali",
+    Scale = 0.8,
+    Pos = Vector(0, -100, 76.5),
+    Ang = Angle(0, 270, 0)
 }}
 
 EMV.Selections = {{
@@ -230,6 +452,45 @@ EMV.Selections = {{
     }, {
         Name = "Whelen Justice",
         Auto = {18}
+    }}
+}, {
+    Name = "Position Markers",
+    Options = {{
+        Name = "Federal Signal MicroPulse",
+        Auto = {19, 20, 21, 22, 23, 24, 25, 26}
+    }, {
+        Name = "Whelen Ion | Single Color",
+        Auto = {27, 28, 29, 30, 31, 32, 33, 34}
+    }, {
+        Name = "Whelen Ion | Split",
+        Auto = {35, 36, 37, 38, 39, 40, 41, 42}
+    }, {
+        Name = "None",
+        Auto = {}
+    }}
+}, {
+    Name = "Interior Lights [FRONT]",
+    Options = {{
+        Name = "TDM Front Interior Lightbar & Federal Signal Viper",
+        Auto = {43, 44}
+    }, {
+        Name = "TDM Front Interior Lightbar",
+        Auto = {43}
+    }, {
+        Name = "Federal Signal Viper",
+        Auto = {44}
+    }, {
+        Name = "None",
+        Auto = {}
+    }}
+}, {
+    Name = "Interior Lights [REAR]",
+    Options = {{
+        Name = "Tomar 200S Rear Cali",
+        Auto = {45}
+    }, {
+        Name = "None",
+        Auto = {}
     }}
 }}
 
