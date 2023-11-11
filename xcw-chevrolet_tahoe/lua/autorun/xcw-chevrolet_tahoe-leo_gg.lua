@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-local VehicleName = "Chevrolet Tahoe (LEO) [R&B]"
+local VehicleName = "Chevrolet Tahoe (LEO) [G&G]"
 
 local A = "AMBER"
 local R = "RED"
@@ -44,125 +44,127 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(0, -10, 88.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Code 3 RX2700",
     Scale = 1,
     Pos = Vector(0, -10, 88.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Code 3 Solex",
     Scale = 1,
     Pos = Vector(0, -10, 86),
     Ang = Angle(0, 0, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Integrity",
     Scale = 1,
     Pos = Vector(0, -10, 88.25),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Legend",
     Scale = 1,
     Pos = Vector(0, -10, 89.75),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Valor",
     Scale = 1,
     Pos = Vector(0, -10, 89.75),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Vision SLR",
     Scale = 1,
     Pos = Vector(0, -10, 90),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Feniex Avatar",
     Scale = 1,
     Pos = Vector(0, -10, 85.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Whelen Justice",
     Scale = 1,
     Pos = Vector(0, -10, 90.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "CHP Whelen Liberty SX",
     Scale = 1,
     Pos = Vector(0, -82.5, 88.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Code 3 RX2700",
     Scale = 1,
     Pos = Vector(0, -82.5, 88.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Code 3 Solex",
     Scale = 1,
     Pos = Vector(0, -82.5, 86),
     Ang = Angle(0, 0, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Integrity",
     Scale = 1,
     Pos = Vector(0, -82.5, 88.25),
-    Ang = Angle(0, 90, 0)
+    Ang = Angle(0, 90, 0),
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Legend",
     Scale = 1,
     Pos = Vector(0, -82.5, 89.75),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Valor",
     Scale = 1,
     Pos = Vector(0, -72.5, 89.75),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Vision SLR",
     Scale = 1,
     Pos = Vector(0, -82.5, 90),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Feniex Avatar",
     Scale = 1,
     Pos = Vector(0, -82.5, 85.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Whelen Justice",
     Scale = 1,
     Pos = Vector(0, -82.5, 90.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- front - left
     ID = "Federal Signal MicroPulse",
@@ -170,8 +172,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 115, 19),
     Ang = Angle(90, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- front - right
     ID = "Federal Signal MicroPulse",
@@ -179,8 +181,8 @@ EMV.Auto = {{
     Pos = Vector(8.25, 115, 19),
     Ang = Angle(90, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- rear - left
     ID = "Federal Signal MicroPulse",
@@ -188,8 +190,8 @@ EMV.Auto = {{
     Pos = Vector(12, -113.2, 46),
     Ang = Angle(90, 180, 0),
     Phase = "S2",
-    Color1 = "RED",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- rear - right
     ID = "Federal Signal MicroPulse",
@@ -197,8 +199,8 @@ EMV.Auto = {{
     Pos = Vector(-13.2, -113.2, 46),
     Ang = Angle(90, 180, 0),
     Phase = "S2",
-    Color1 = "RED",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- left - front
     ID = "Federal Signal MicroPulse",
@@ -206,8 +208,8 @@ EMV.Auto = {{
     Pos = Vector(-44.5, 97, 41.5),
     Ang = Angle(0, 70, 0),
     Phase = "S2",
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 
 }, {
     -- left - rear
@@ -216,8 +218,8 @@ EMV.Auto = {{
     Pos = Vector(-45.125, -97.5, 41.5),
     Ang = Angle(0, 95, 0),
     Phase = "S2",
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- right - front
     ID = "Federal Signal MicroPulse",
@@ -225,8 +227,8 @@ EMV.Auto = {{
     Pos = Vector(45.75, 94.5, 41.5),
     Ang = Angle(0, -70, 0),
     Phase = "S2",
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 
 }, {
     -- right - rear
@@ -235,8 +237,8 @@ EMV.Auto = {{
     Pos = Vector(44.8625, -100, 41.5),
     Ang = Angle(0, -95, 0),
     Phase = "S2",
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- front - left
     ID = "Whelen Ion",
@@ -260,7 +262,7 @@ EMV.Auto = {{
     Pos = Vector(12, -113.2, 46),
     Ang = Angle(90, 180, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- rear - right
     ID = "Whelen Ion",
@@ -268,7 +270,7 @@ EMV.Auto = {{
     Pos = Vector(-13.2, -113.2, 46),
     Ang = Angle(90, 180, 0),
     Phase = "A",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- left - front
     ID = "Whelen Ion",
@@ -276,7 +278,7 @@ EMV.Auto = {{
     Pos = Vector(-45, 94.5, 41.5),
     Ang = Angle(0, 70, 0),
     Phase = "B",
-    Color1 = "AMBER"
+    Color1 = "GREEN"
 
 }, {
     -- left - rear
@@ -285,7 +287,7 @@ EMV.Auto = {{
     Pos = Vector(-44.5, -97.5, 41.5),
     Ang = Angle(0, 95, 0),
     Phase = "A",
-    Color1 = "AMBER"
+    Color1 = "GREEN"
 }, {
     -- right - front
     ID = "Whelen Ion",
@@ -293,7 +295,7 @@ EMV.Auto = {{
     Pos = Vector(45, 94.5, 41.5),
     Ang = Angle(0, -70, 0),
     Phase = "B",
-    Color1 = "AMBER"
+    Color1 = "GREEN"
 
 }, {
     -- right - rear
@@ -302,7 +304,7 @@ EMV.Auto = {{
     Pos = Vector(44.5, -97.5, 41.5),
     Ang = Angle(0, -95, 0),
     Phase = "A",
-    Color1 = "AMBER"
+    Color1 = "GREEN"
 }, {
     -- front - left
     ID = "Whelen Ion Split",
@@ -310,7 +312,7 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 115, 19),
     Ang = Angle(90, 0, 0),
     Color1 = "WHITE",
-    Color2 = "BLUE"
+    Color2 = "GREEN"
 }, {
     -- front - right
     ID = "Whelen Ion Split",
@@ -318,31 +320,31 @@ EMV.Auto = {{
     Pos = Vector(8.25, 115, 19),
     Ang = Angle(90, 0, 0),
     Color1 = "WHITE",
-    Color2 = "BLUE"
+    Color2 = "GREEN"
 }, {
     -- rear - left
     ID = "Whelen Ion Split",
     Scale = 0.75,
     Pos = Vector(12, -113.2, 46),
     Ang = Angle(90, 180, 0),
-    Color1 = "RED",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- rear - right
     ID = "Whelen Ion Split",
     Scale = 0.75,
     Pos = Vector(-13.2, -113.2, 46),
     Ang = Angle(90, 180, 0),
-    Color1 = "RED",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- left - front
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-45, 94.5, 41.5),
     Ang = Angle(0, 70, 0),
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 
 }, {
     -- left - rear
@@ -350,16 +352,16 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(-44.5, -97.5, 41.5),
     Ang = Angle(0, 95, 0),
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- right - front
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(45, 94.5, 41.5),
     Ang = Angle(0, -70, 0),
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 
 }, {
     -- right - rear
@@ -367,23 +369,29 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(44.5, -97.5, 41.5),
     Ang = Angle(0, -95, 0),
-    Color1 = "AMBER",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "TDM Front Interior Lightbar",
     Scale = 1.1,
     Pos = Vector(0, 28, 78),
-    Ang = Angle(0, 90, 0)
+    Ang = Angle(0, 90, 0),
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Federal Signal Viper",
     Scale = 1,
     Pos = Vector(0, 48.75, 65),
-    Ang = Angle(0, 90, 0)
+    Ang = Angle(0, 90, 0),
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     ID = "Tomar 200S Rear Cali",
     Scale = 0.8,
     Pos = Vector(0, -100, 76.5),
-    Ang = Angle(0, 270, 0)
+    Ang = Angle(0, 270, 0),
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -r1
     ID = "Federal Signal MicroPulse",
@@ -391,8 +399,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 114, 39.5),
     Ang = Angle(0, 5, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -l1
     ID = "Federal Signal MicroPulse",
@@ -400,8 +408,8 @@ EMV.Auto = {{
     Pos = Vector(7.5, 114, 39.5),
     Ang = Angle(0, -5, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -r2
     ID = "Federal Signal MicroPulse",
@@ -409,8 +417,8 @@ EMV.Auto = {{
     Pos = Vector(-15.5, 113.125, 39.5),
     Ang = Angle(0, 5, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -l2
     ID = "Federal Signal MicroPulse",
@@ -418,8 +426,8 @@ EMV.Auto = {{
     Pos = Vector(17.5, 113.125, 39.5),
     Ang = Angle(0, -5, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -r1
     ID = "Whelen Ion",
@@ -427,8 +435,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 113.5, 38.5),
     Ang = Angle(0, 5, 0),
     Phase = "A",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -l1
     ID = "Whelen Ion",
@@ -436,8 +444,8 @@ EMV.Auto = {{
     Pos = Vector(6.5, 113.5, 38.5),
     Ang = Angle(0, -5, 0),
     Phase = "A",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -r2
     ID = "Whelen Ion",
@@ -445,7 +453,7 @@ EMV.Auto = {{
     Pos = Vector(-15.5, 112.75, 38.5),
     Ang = Angle(0, 5, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- grill -l2
     ID = "Whelen Ion",
@@ -453,39 +461,39 @@ EMV.Auto = {{
     Pos = Vector(15.5, 112.75, 38.5),
     Ang = Angle(0, -5, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- grill -r1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-6.5, 113.5, 38.5),
     Ang = Angle(0, 5, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -l1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(6.5, 113.5, 38.5),
     Ang = Angle(0, -5, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -r2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-15.5, 112.75, 38.5),
     Ang = Angle(0, 5, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- grill -l2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(15.5, 112.75, 38.5),
     Ang = Angle(0, -5, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -left -1
     ID = "Federal Signal MicroPulse",
@@ -493,17 +501,17 @@ EMV.Auto = {{
     Pos = Vector(-46.125, 38, 17),
     Ang = Angle(0, 80, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
-}, { 
-	-- runningboard -left -2
+    Color1 = "GREEN",
+    Color2 = "GREEN"
+}, {
+    -- runningboard -left -2
     ID = "Federal Signal MicroPulse",
     Scale = 1,
     Pos = Vector(-46.75, 14.5, 17.1),
     Ang = Angle(0, 90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -left -3
     ID = "Federal Signal MicroPulse",
@@ -511,17 +519,17 @@ EMV.Auto = {{
     Pos = Vector(-46.75, -9, 17.5),
     Ang = Angle(0, 90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
-}, { 
-	-- runningboard -left -4
+    Color1 = "GREEN",
+    Color2 = "GREEN"
+}, {
+    -- runningboard -left -4
     ID = "Federal Signal MicroPulse",
     Scale = 1,
     Pos = Vector(-47.25, -32.5, 17.9),
     Ang = Angle(0, 100, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -right -1
     ID = "Federal Signal MicroPulse",
@@ -529,17 +537,17 @@ EMV.Auto = {{
     Pos = Vector(46.125, 38, 17),
     Ang = Angle(0, -80, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
-}, { 
-	-- runningboard -right -2
+    Color1 = "GREEN",
+    Color2 = "GREEN"
+}, {
+    -- runningboard -right -2
     ID = "Federal Signal MicroPulse",
     Scale = 1,
     Pos = Vector(46.75, 14.5, 17.1),
     Ang = Angle(0, -90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -right -3
     ID = "Federal Signal MicroPulse",
@@ -547,17 +555,17 @@ EMV.Auto = {{
     Pos = Vector(46.75, -9, 17.5),
     Ang = Angle(0, -90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
-}, { 
-	-- runningboard -right -4
+    Color1 = "GREEN",
+    Color2 = "GREEN"
+}, {
+    -- runningboard -right -4
     ID = "Federal Signal MicroPulse",
     Scale = 1,
     Pos = Vector(47.25, -32.5, 17.9),
     Ang = Angle(0, -100, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -left -1
     ID = "Whelen Ion",
@@ -565,15 +573,15 @@ EMV.Auto = {{
     Pos = Vector(-46.125, 38, 16),
     Ang = Angle(0, 80, 0),
     Phase = "A",
-    Color1 = "RED"
-}, { 
-	-- runningboard -left -2
+    Color1 = "GREEN"
+}, {
+    -- runningboard -left -2
     ID = "Whelen Ion",
     Scale = 1,
     Pos = Vector(-46.75, 14.5, 16.1),
     Ang = Angle(0, 90, 0),
     Phase = "B",
-    Color1 = "BLUE"
+    Color1 = "GREEN"
 }, {
     -- runningboard -left -3
     ID = "Whelen Ion",
@@ -581,16 +589,16 @@ EMV.Auto = {{
     Pos = Vector(-46.75, -9, 16.5),
     Ang = Angle(0, 90, 0),
     Phase = "A",
-		Color1 = "RED"
+    Color1 = "GREEN"
 
-}, { 
-	-- runningboard -left -4
+}, {
+    -- runningboard -left -4
     ID = "Whelen Ion",
     Scale = 1,
     Pos = Vector(-47.25, -32.5, 16.9),
     Ang = Angle(0, 100, 0),
     Phase = "B",
-    Color1 = "BLUE"
+    Color1 = "GREEN"
 }, {
     -- runningboard -right -1
     ID = "Whelen Ion",
@@ -598,16 +606,16 @@ EMV.Auto = {{
     Pos = Vector(46.125, 38, 16),
     Ang = Angle(0, -80, 0),
     Phase = "A",
-		Color1 = "RED"
+    Color1 = "GREEN"
 
-}, { 
-	-- runningboard -right -2
+}, {
+    -- runningboard -right -2
     ID = "Whelen Ion",
     Scale = 1,
     Pos = Vector(46.75, 14.5, 16.1),
     Ang = Angle(0, -90, 0),
     Phase = "B",
-    Color1 = "BLUE"
+    Color1 = "GREEN"
 }, {
     -- runningboard -right -3
     ID = "Whelen Ion",
@@ -615,81 +623,81 @@ EMV.Auto = {{
     Pos = Vector(46.75, -9, 16.5),
     Ang = Angle(0, -90, 0),
     Phase = "A",
-    Color1 = "RED"
-}, { 
-	-- runningboard -right -4
+    Color1 = "GREEN"
+}, {
+    -- runningboard -right -4
     ID = "Whelen Ion",
     Scale = 1,
     Pos = Vector(47.25, -32.5, 16.9),
     Ang = Angle(0, -100, 0),
     Phase = "B",
-    Color1 = "BLUE"
+    Color1 = "GREEN"
 }, {
     -- runningboard -left -1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-46.125, 38, 16),
     Ang = Angle(0, 80, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
-}, { 
-	-- runningboard -left -2
+    Color1 = "GREEN",
+    Color2 = "GREEN"
+}, {
+    -- runningboard -left -2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-46.75, 14.5, 16.1),
     Ang = Angle(0, 90, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -left -3
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-46.75, -9, 16.5),
     Ang = Angle(0, 90, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 
-}, { 
-	-- runningboard -left -4
+}, {
+    -- runningboard -left -4
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-47.25, -32.5, 16.9),
     Ang = Angle(0, 100, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -right -1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(46.125, 38, 16),
     Ang = Angle(0, -80, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 
-}, { 
-	-- runningboard -right -2
+}, {
+    -- runningboard -right -2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(46.75, 14.5, 16.1),
     Ang = Angle(0, -90, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- runningboard -right -3
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(46.75, -9, 16.5),
     Ang = Angle(0, -90, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
-}, { 
-	-- runningboard -right -4
+    Color1 = "GREEN",
+    Color2 = "GREEN"
+}, {
+    -- runningboard -right -4
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(47.25, -32.5, 16.9),
     Ang = Angle(0, -100, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -r1
     ID = "Federal Signal MicroPulse",
@@ -697,8 +705,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 120, 42.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -l1
     ID = "Federal Signal MicroPulse",
@@ -706,8 +714,8 @@ EMV.Auto = {{
     Pos = Vector(7.5, 120, 42.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -r2
     ID = "Federal Signal MicroPulse",
@@ -715,8 +723,8 @@ EMV.Auto = {{
     Pos = Vector(-15.5, 120, 42.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -l2
     ID = "Federal Signal MicroPulse",
@@ -724,8 +732,8 @@ EMV.Auto = {{
     Pos = Vector(17.5, 120, 42.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -s1
     ID = "Federal Signal MicroPulse",
@@ -733,8 +741,8 @@ EMV.Auto = {{
     Pos = Vector(-23.5, 122.75, 29.5),
     Ang = Angle(90, 90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -s2
     ID = "Federal Signal MicroPulse",
@@ -742,8 +750,8 @@ EMV.Auto = {{
     Pos = Vector(23.5, 120.75, 29.5),
     Ang = Angle(90, -90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -r1
     ID = "Whelen Ion",
@@ -751,8 +759,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
     Phase = "A",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -l1
     ID = "Whelen Ion",
@@ -760,8 +768,8 @@ EMV.Auto = {{
     Pos = Vector(6.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
     Phase = "A",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -r2
     ID = "Whelen Ion",
@@ -769,7 +777,7 @@ EMV.Auto = {{
     Pos = Vector(-15.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar1 -l2
     ID = "Whelen Ion",
@@ -777,7 +785,7 @@ EMV.Auto = {{
     Pos = Vector(15.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar1 -s1
     ID = "Whelen Ion",
@@ -785,7 +793,7 @@ EMV.Auto = {{
     Pos = Vector(-23.5, 121.9, 31),
     Ang = Angle(90, 90, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar1 -s2
     ID = "Whelen Ion",
@@ -793,55 +801,55 @@ EMV.Auto = {{
     Pos = Vector(23.5, 121.9, 31),
     Ang = Angle(90, -90, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar1 -r1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-6.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -l1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(6.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -r2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-15.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -l2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(15.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -s1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-23.5, 121.9, 31),
     Ang = Angle(90, 90, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar1 -s2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(23.5, 121.9, 31),
     Ang = Angle(90, -90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -r1
     ID = "Federal Signal MicroPulse",
@@ -849,8 +857,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 119, 51.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -l1
     ID = "Federal Signal MicroPulse",
@@ -858,8 +866,8 @@ EMV.Auto = {{
     Pos = Vector(7.5, 119, 51.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -r2
     ID = "Federal Signal MicroPulse",
@@ -867,8 +875,8 @@ EMV.Auto = {{
     Pos = Vector(-15.5, 119, 51.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -l2
     ID = "Federal Signal MicroPulse",
@@ -876,8 +884,8 @@ EMV.Auto = {{
     Pos = Vector(17.5, 119, 51.725),
     Ang = Angle(0, 0, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -s1
     ID = "Federal Signal MicroPulse",
@@ -885,8 +893,8 @@ EMV.Auto = {{
     Pos = Vector(-22.5, 122.75, 33),
     Ang = Angle(90, 90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -s2
     ID = "Federal Signal MicroPulse",
@@ -894,8 +902,8 @@ EMV.Auto = {{
     Pos = Vector(22.5, 120.75, 33),
     Ang = Angle(90, -90, 0),
     Phase = "S2",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -r1
     ID = "Whelen Ion",
@@ -903,8 +911,8 @@ EMV.Auto = {{
     Pos = Vector(-6.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
     Phase = "A",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -l1
     ID = "Whelen Ion",
@@ -912,8 +920,8 @@ EMV.Auto = {{
     Pos = Vector(6.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
     Phase = "A",
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -r2
     ID = "Whelen Ion",
@@ -921,7 +929,7 @@ EMV.Auto = {{
     Pos = Vector(-15.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar2 -l2
     ID = "Whelen Ion",
@@ -929,7 +937,7 @@ EMV.Auto = {{
     Pos = Vector(15.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar2 -s1
     ID = "Whelen Ion",
@@ -937,7 +945,7 @@ EMV.Auto = {{
     Pos = Vector(-22, 121.9, 34),
     Ang = Angle(90, 90, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar2 -s2
     ID = "Whelen Ion",
@@ -945,55 +953,55 @@ EMV.Auto = {{
     Pos = Vector(22.25, 121.9, 34),
     Ang = Angle(90, -90, 0),
     Phase = "B",
-    Color1 = "RED"
+    Color1 = "GREEN"
 }, {
     -- bullbar2 -r1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-6.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -l1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(6.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -r2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-15.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -l2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(15.5, 120, 41.8),
     Ang = Angle(0, 0, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -s1
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(-22, 121.9, 34),
     Ang = Angle(90, 90, 0),
-    Color1 = "BLUE",
-    Color2 = "RED"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }, {
     -- bullbar2 -s2
     ID = "Whelen Ion Split",
     Scale = 1,
     Pos = Vector(22.25, 121.9, 34),
     Ang = Angle(90, -90, 0),
-    Color1 = "RED",
-    Color2 = "BLUE"
+    Color1 = "GREEN",
+    Color2 = "GREEN"
 }}
 
 EMV.Selections = {{
@@ -1392,7 +1400,7 @@ local V = {
     Photon = PI
 }
 
-list.Set("Vehicles", "xcw-chevrolet_tahoe_(leo)_r&b", V)
+list.Set("Vehicles", "xcw-chevrolet_tahoe_(leo)_g&g", V)
 
 if EMVU then
     EMVU:OverwriteIndex(VehicleName, EMV)
