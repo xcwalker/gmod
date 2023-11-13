@@ -982,7 +982,7 @@ EMV.Auto = {{
     -- bullbar2 -l2
     ID = "Whelen Ion Split",
     Scale = 1,
-    Pos = Vector(15.5, 120, 41.8),
+    Pos = Vector(15.5, 119, 50.55),
     Ang = Angle(0, 0, 0),
     Color1 = "RED",
     Color2 = "RED"

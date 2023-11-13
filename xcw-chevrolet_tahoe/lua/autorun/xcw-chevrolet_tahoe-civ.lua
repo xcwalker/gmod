@@ -14,10 +14,10 @@ local EMV = {}
 
 EMV.Siren = 28
 EMV.Skin = 0
-EMV.Color = Color(56, 56, 56)
+EMV.Color = Color(91, 7, 13)
 
 EMV.BodyGroups = {{0, 0}, -- Body
-{1, 1}, -- ALPR
+{1, 0}, -- ALPR
 {2, 0}, -- Antenne
 {3, 1}, -- Sidepanels
 {4, 0}, -- Bullbar
