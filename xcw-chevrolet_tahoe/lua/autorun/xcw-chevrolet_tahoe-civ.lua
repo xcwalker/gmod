@@ -22,8 +22,8 @@ EMV.BodyGroups = {{0, 0}, -- Body
 {3, 1}, -- Sidepanels
 {4, 0}, -- Bullbar
 {5, 0}, -- Lightbar
-{6, 1}, -- Equiptment
-{7, 1}, -- Grill
+{6, 0}, -- Equiptment
+{7, 0}, -- Grill
 {8, 0}, -- Lamp
 {9, 0}, -- Lights_frontwindow
 {10, 0}, -- Lights_grill
@@ -33,7 +33,7 @@ EMV.BodyGroups = {{0, 0}, -- Body
 {14, 0}, -- Roofrack
 {15, 0}, -- Runningboards
 {16, 0}, -- Snorkle
-{17, 1}, -- Wheels
+{17, 0}, -- Wheels
 {18, 0}, -- Windows
 {19, 0}, -- clamped1
 {20, 0} -- clamped2
