@@ -1392,7 +1392,8 @@ local V = {
     Photon = PI
 }
 
-list.Set("Vehicles", "xcw-chevrolet_tahoe_(leo)_r&b", V)
+list.Set("Vehicles", "xcw-chevrolet_tahoe-leo_rb", V)
+
 
 if EMVU then
     EMVU:OverwriteIndex(VehicleName, EMV)
