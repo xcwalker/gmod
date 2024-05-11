@@ -2,24 +2,36 @@
 {
  "$basetexture" "models/lonewolfiescars/chev_tahoe/SKIN10"
  "$bumpmap" "models/lonewolfiescars/shared/skin_nm"
- "$halflambert" 1
- "$phong" "1" 
- "$phongboost" "10" 
- "$phongfresnelranges" "[0.5 0.4 5]" 
- "$phongexponent" "200"
- "$rimmask" "1"
- "$envmap" "env_cubemap"
- "$envmaptint" "[0.1 0.1 0.1]" 
- !hdr?$envmaptint "[ 0.2 0.2 0.2 ]"
- hdr?$envmaptint "[ 0.3 0.3 0.3 ]"
- "$normalmapalphaenvmapmask" 1
- "$envmapFresnel" "1" 
- "$blendtintbybasealpha" "1" "$envmapcontrast" ".5"
- "$surfaceprop" "metal"
+ //General
+	"$nodecal" "1" 	 //No decals will be shown on this texture
+	"$nocull" 1	//This makes the texture double sided
+	"$blendtintbybasealpha" 1	//Uses the alpha of the basetexture to control the tints
+	"$halflambert" 1	//Enables halflambert shading. (Wraps light around model)
+ 
+	//envmap params
+	"$envmap" "env_cubemap"		//Specifies the envmap to use
+	"$envmaptint" "[0.005 0.005 0.005]"		//Envmap tint in RGB format. Raise one value to increase the power of that colour
+ 
+	//phong params
+	"$phong" "1" 	//Enables phong shading
+	"$phongboost" "0.1"	//Increases the phong power
+	"$phongfresnelranges" "[.3 .5 1]" 	//The fresnel ranges for phong
+	"$phongexponent" 80	//Raise to decrease the area the phong takes up
+ 
+	//rimlight params
+	"$rimlight" "1"	//Enables rim light
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
 
- "$rimlight" "1"
- "$rimlightexponent" "25"
- "$rimlightboost" "0.5"
- "$phongalbedotint" "1"
-
+	// Make color stay white
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
 }
