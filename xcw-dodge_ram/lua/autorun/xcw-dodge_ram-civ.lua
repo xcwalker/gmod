@@ -92,18 +92,18 @@ EMV.Positions = {
 }
 
 EMV.Sequences = {
-        Sequences = {{
-            Name = "None",
-            Stage = "M1",
-            Components = {},
-            Disconnect = {}
-        }},
-        Traffic = {{
-            Name = "None",
-            Stage = "L",
-            Components = {},
-            Disconnect = {}
-        }},
+    Sequences = {{
+        Name = "None",
+        Stage = "M1",
+        Components = {},
+        Disconnect = {}
+    }},
+    Traffic = {{
+        Name = "None",
+        Stage = "L",
+        Components = {},
+        Disconnect = {}
+    }},
     Illumination = {{
         Name = "SIDE",
         Components = {{1, SW, 1}, {2, SW, 1}},

@@ -51,7 +51,7 @@ EMV.Meta = {
         W = 12,
         H = 12,
         Sprite = "sprites/emv/blank",
-        Scale = 1,
+        Scale = 0.5,
         VisRadius = 16
     },
     head_low = {
@@ -59,7 +59,7 @@ EMV.Meta = {
         W = 12,
         H = 12,
         Sprite = "sprites/emv/blank",
-        Scale = 3,
+        Scale = 1,
         VisRadius = 16
     },
     head_high = {
@@ -67,7 +67,7 @@ EMV.Meta = {
         W = 10,
         H = 10,
         Sprite = "sprites/emv/blank",
-        Scale = 5,
+        Scale = 1.5,
         VisRadius = 16
     },
     brake = {
@@ -582,7 +582,7 @@ PI.Meta = {
         W = 7,
         H = 14,
         Sprite = "sprites/emv/blank",
-        Scale = 4,
+        Scale = 1,
         WMult = 1.2
     },
     head_low = {
@@ -590,7 +590,7 @@ PI.Meta = {
         W = 8,
         H = 8,
         Sprite = "sprites/emv/blank",
-        Scale = 1,
+        Scale = 0.25,
         VisRadius = 16
     },
     side = {
@@ -606,7 +606,7 @@ PI.Meta = {
         W = 6,
         H = 14,
         Sprite = "sprites/emv/blank",
-        Scale = 1.5,
+        Scale = 1,
         WMult = 1.2
     },
     indicator = {
@@ -614,7 +614,7 @@ PI.Meta = {
         W = 12,
         H = 10,
         Sprite = "sprites/emv/blank",
-        Scale = 1.5,
+        Scale = 1,
         WMult = 1.2
     }
 }
