@@ -1172,7 +1172,7 @@ EMV.Meta = {
         W = 12,
         H = 12,
         Sprite = "sprites/emv/blank",
-        Scale = 2,
+        Scale = 0.5,
         VisRadius = 16,
         Color = "WHITE"
     },
@@ -1181,7 +1181,7 @@ EMV.Meta = {
         W = 10,
         H = 10,
         Sprite = "sprites/emv/blank",
-        Scale = 2,
+        Scale = 1.5,
         VisRadius = 16
     },
     brake = {
@@ -1189,11 +1189,12 @@ EMV.Meta = {
         W = 6,
         H = 14,
         Sprite = "sprites/emv/blank",
-        Scale = 1.5,
+        Scale = 0.5,
         WMult = 1.2,
         Color = "RED"
     }
 }
+
 
 EMV.Positions = {
     [1] = {Vector(36.5, 100, 45.75), Angle(0, 0, 0), "head_low"},
@@ -1321,7 +1322,7 @@ PI.Meta = {
         W = 8,
         H = 8,
         Sprite = "sprites/emv/blank",
-        Scale = 1,
+        Scale = 0.5,
         VisRadius = 16
     },
     brake = {
@@ -1329,7 +1330,7 @@ PI.Meta = {
         W = 6,
         H = 14,
         Sprite = "sprites/emv/blank",
-        Scale = 1.5,
+        Scale = 0.75,
         WMult = 1.2
     },
     brake_wide = {
@@ -1337,7 +1338,7 @@ PI.Meta = {
         W = 25,
         H = 8,
         Sprite = "sprites/emv/blank",
-        Scale = 1.5,
+        Scale = 0.75,
         WMult = 1.2
     },
     indicator = {
@@ -1345,10 +1346,11 @@ PI.Meta = {
         W = 12,
         H = 10,
         Sprite = "sprites/emv/blank",
-        Scale = 1.5,
+        Scale = 1,
         WMult = 1.2
     }
 }
+
 
 PI.Positions = {
     [1] = {Vector(36.5, 100, 45.75), Angle(0, 0, 0), "head_low"},

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{	"$basetexture" "vgui/entities/xcw-dodge_ram-leo_rb"
+    "$vertexcolor"         1
+    "$vertexalpha"         1
+    "$nolod"               1
+}
