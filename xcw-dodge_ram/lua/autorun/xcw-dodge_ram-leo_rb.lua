@@ -341,6 +341,89 @@ EMV.Auto = {{
     Ang = Angle(115, 180, 0),
     Color1 = "RED",
     Color2 = "BLUE"
+}, {
+    ID = "Whelen Tracer 5",
+    Scale = 1.15,
+    Pos = Vector(-43, 22, 22.5),
+    Ang = Angle(0, 90, 0),
+    Color1 = "RED",
+    Color2 = "BLUE"
+}, {
+    ID = "Whelen Tracer 5",
+    Scale = 1.15,
+    Pos = Vector(43.2, 22, 22.5),
+    Ang = Angle(0, -90, 0),
+    Color1 = "RED",
+    Color2 = "BLUE"
+}, {
+    ID = "Whelen Dominator 8",
+    Scale = 1,
+    Pos = Vector(0, 155, 42),
+    Ang = Angle(0, 0, 180),
+    Color1 = "RED",
+    Color2 = "BLUE"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(15, 152, 35),
+    Ang = Angle(0, 270, 180),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-15, 152, 35),
+    Ang = Angle(0, 270, 180),
+    Phase = "B"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(35, 82, 68),
+    Ang = Angle(0, 260, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-35, 82, 68),
+    Ang = Angle(0, 280, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -52, 85.3),
+    Ang = Angle(-10, 90, 180)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -52, 85.3),
+    Ang = Angle(-10, 90, 180)
+}, {
+    ID = "Juluen EdgeSaber LED",
+    Scale = 1,
+    Pos = Vector(22.1, 153, 35),
+    Ang = Angle(90, 90, 0),
+    Color1 = "RED",
+    Color2 = "BLUE",
+    Phase = "TRIPLEA"
+}, {
+    ID = "Juluen EdgeSaber LED",
+    Scale = 1,
+    Pos = Vector(-21.7, 153, 35),
+    Ang = Angle(90, -90, 0),
+    Color1 = "RED",
+    Color2 = "BLUE",
+    Phase = "TRIPLEB"
+}, {
+    ID = "Whelen LINZ6",
+    Scale = 1,
+    Pos = Vector(-22.5, 153, 35),
+    Ang = Angle(90, 90, 0),
+    Color1 = "RED",
+    Phase = "A"
+}, {
+    ID = "Whelen LINZ6",
+    Scale = 1,
+    Pos = Vector(23, 153, 35),
+    Ang = Angle(90, -90, 0),
+    Color1 = "BLUE",
+    Phase = "B"
 }}
 
 EMV.Selections = {{
@@ -411,7 +494,7 @@ EMV.Selections = {{
         Name = "None",
         Auto = {}
     }, {
-        Name = "Tomar 200S Rearaw",
+        Name = "Tomar 200S Rear",
         Auto = {14}
     }, {
         Name = "Tomar 200S Rear Cali",
@@ -432,7 +515,68 @@ EMV.Selections = {{
         Name = "Whelen Ion | Split",
         Auto = {32, 33, 34, 35, 36, 37, 38, 39}
     }}
+}, {
+    Name = "Runningbar Lights",
+    Options = {{
+        Name = "None",
+        Auto = {}
+    }, {
+        Name = "Test",
+        Auto = {40, 41}
+    }}
+}, {
+    Name = "Bullbar Lights",
+    Options = {{
+        Name = "None",
+        Auto = {}
+    }, {
+        Name = "Whelen Dominator 8",
+        Auto = {42}
+    }, {
+        Name = "Soundoff 200L Worklight",
+        Auto = {43, 44}
+    }, {
+        Name = "Juluen EdgeSaber LED",
+        Auto = {49, 50}
+    }, {
+        Name = "Whelen LINZ6",
+        Auto = {51, 52}
+    }, {
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight",
+        Auto = {42, 43, 44}
+    }, {
+        Name = "Whelen Dominator 8 & Juluen EdgeSaber LED",
+        Auto = {42, 49, 50}
+    }, {
+        Name = "Whelen Dominator 8 & Whelen LINZ6",
+        Auto = {42, 51, 52}
+    }, {
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight & Juluen EdgeSaber LED",
+        Auto = {42, 43, 44, 49, 50}
+    }, {
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight & Whelen LINZ6",
+        Auto = {42, 43, 44, 51, 52}
+    }}
+}, {
+    Name = "Bonnet Lights",
+    Options = {{
+        Name = "None",
+        Auto = {}
+    }, {
+        Name = "Soundoff 200L Worklight",
+        Auto = {45, 46}
+    }}
+}, {
+    Name = "Bed Lights",
+    Options = {{
+        Name = "None",
+        Auto = {}
+    }, {
+        Name = "BedF | Soundoff 200L Worklight",
+        Auto = {47, 48}
+    }}
 }}
+
 
 EMV.Sequences = {
     Sequences = {{
