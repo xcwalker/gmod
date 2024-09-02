@@ -470,6 +470,16 @@ EMV.Auto = {{
     Ang = Angle(90, -90, 0),
     Color1 = "AMBER",
     Phase = "B"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(15, 152, 35),
+    Ang = Angle(0, 270, 180)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-15, 152, 35),
+    Ang = Angle(0, 270, 180)
 }}
 
 EMV.Selections = {{
@@ -579,8 +589,11 @@ EMV.Selections = {{
         Name = "Whelen Dominator 8",
         Auto = {42}
     }, {
-        Name = "Soundoff 200L Worklight",
+        Name = "Soundoff 200L Worklight [FLASH]",
         Auto = {43, 44}
+    }, {
+        Name = "Soundoff 200L Worklight [STDY]",
+        Auto = {53, 54}
     }, {
         Name = "Juluen EdgeSaber LED",
         Auto = {49, 50}
@@ -588,8 +601,11 @@ EMV.Selections = {{
         Name = "Whelen LINZ6",
         Auto = {51, 52}
     }, {
-        Name = "Whelen Dominator 8 & Soundoff 200L Worklight",
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight [FLASH]",
         Auto = {42, 43, 44}
+    }, {
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight [STDY]",
+        Auto = {42, 53, 54}
     }, {
         Name = "Whelen Dominator 8 & Juluen EdgeSaber LED",
         Auto = {42, 49, 50}
@@ -597,11 +613,17 @@ EMV.Selections = {{
         Name = "Whelen Dominator 8 & Whelen LINZ6",
         Auto = {42, 51, 52}
     }, {
-        Name = "Whelen Dominator 8 & Soundoff 200L Worklight & Juluen EdgeSaber LED",
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight [FLASH] & Juluen EdgeSaber LED",
         Auto = {42, 43, 44, 49, 50}
     }, {
-        Name = "Whelen Dominator 8 & Soundoff 200L Worklight & Whelen LINZ6",
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight [FLASH] & Whelen LINZ6",
         Auto = {42, 43, 44, 51, 52}
+    }, {
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight [STDY] & Juluen EdgeSaber LED",
+        Auto = {42, 53, 54, 49, 50}
+    }, {
+        Name = "Whelen Dominator 8 & Soundoff 200L Worklight [STDY] & Whelen LINZ6",
+        Auto = {42, 53, 54, 51, 52}
     }}
 }, {
     Name = "Bonnet Lights",
@@ -639,7 +661,7 @@ EMV.Sequences = {
             ["side"] = "wigwag_pursuit",
             ["brakes"] = "wigwag"
         },
-        Disconnect = {}
+        Disconnect = {45, 46, 47, 48}
     }, {
         Name = "PURSUIT",
         Stage = "M3",
