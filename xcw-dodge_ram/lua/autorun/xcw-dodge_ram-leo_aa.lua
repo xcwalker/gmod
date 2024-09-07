@@ -1207,10 +1207,10 @@ EMV.Selections = {{
         Name = "TDM Front Interior Lightbar & Federal Signal Viper",
         Auto = {12, 13}
     }, {
-        Name = "TDM Front Interior Lightbar",
+        Name = "Federal Signal Viper",
         Auto = {13}
     }, {
-        Name = "Federal Signal Viper",
+        Name = "TDM Front Interior Lightbar",
         Auto = {12}
     }}
 }, {
