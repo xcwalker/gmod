@@ -44,7 +44,7 @@ EMV.BodyGroups = {{0, 0}, -- Body
 }
 
 EMV.Auto = {{
-    ID = "CHP Whelen Liberty SX",
+    ID = "Whelen Liberty SX",
     Scale = 1,
     Pos = Vector(0, -10, 88.5),
     Ang = Angle(0, 90, 0),
@@ -81,7 +81,7 @@ EMV.Auto = {{
 }, {
     ID = "Federal Signal Valor",
     Scale = 1,
-    Pos = Vector(0, -10, 89.75),
+    Pos = Vector(0, -10, 89.25),
     Ang = Angle(0, 90, 0),
     Color1 = Color1,
     Color2 = Color2
@@ -107,7 +107,7 @@ EMV.Auto = {{
     Color1 = Color1,
     Color2 = Color2
 }, {
-    ID = "CHP Whelen Liberty SX",
+    ID = "Whelen Liberty SX",
     Scale = 1,
     Pos = Vector(0, -82.5, 88.5),
     Ang = Angle(0, 90, 0),
@@ -1037,8 +1037,8 @@ EMV.Auto = {{
     Ang = Angle(0, 0, 180),
     Color1 = Color1,
     Color2 = Color2
-}, --Juluen EdgeSaber LED
- {
+}, -- Juluen EdgeSaber LED
+{
     ID = "Juluen EdgeSaber LED",
     Scale = 1,
     Pos = Vector(22.2, 120.5, 32),
@@ -1078,7 +1078,7 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(-15, 120.5, 32.5),
     Ang = Angle(0, 270, 180)
-}, --Whelen LINZ6
+}, -- Whelen LINZ6
 {
     ID = "Whelen LINZ6",
     Scale = 1,
@@ -1103,8 +1103,8 @@ EMV.Auto = {{
     Ang = Angle(0, 0, 180),
     Color1 = Color1,
     Color2 = Color2
-}, --Juluen EdgeSaber LED
- {
+}, -- Juluen EdgeSaber LED
+{
     ID = "Juluen EdgeSaber LED",
     Scale = 1,
     Pos = Vector(22.2, 120, 31.25),
@@ -1144,7 +1144,7 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(-15, 120.5, 27),
     Ang = Angle(0, 270, 180)
-}, --Whelen LINZ6
+}, -- Whelen LINZ6
 {
     ID = "Whelen LINZ6",
     Scale = 1,
@@ -1161,6 +1161,906 @@ EMV.Auto = {{
     Color1 = Color1,
     Color2 = Color2,
     Phase = "A"
+}, -- Worklights [FRONT] --Whelen Liberty SX [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, 1, 88),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, 1, 88),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -21, 88.125),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -21, 88.125),
+    Ang = Angle(-10, 135, 0)
+
+}, -- Whelen Liberty SX [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, 1, 88),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, 1, 88),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -21, 88.125),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -21, 88.125),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+
+}, -- Code 3 RX2700 [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-31.25, -3, 87.5),
+    Ang = Angle(-10, 0, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(31.25, -3, 87.5),
+    Ang = Angle(-10, 180, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -21, 88.25),
+    Ang = Angle(-10, 45, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -21, 88.25),
+    Ang = Angle(-10, 135, 0)
+}, -- Code 3 RX2700 [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-31.25, -3, 87.5),
+    Ang = Angle(-10, 0, 0),
+    Phase = "A"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(31.25, -3, 87.5),
+    Ang = Angle(-10, 180, 0),
+    Phase = "B"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -21, 88.25),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -21, 88.25),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Code 3 Solex [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -0.5, 88),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -0.5, 88),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -19.5, 88.125),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -19.5, 88.125),
+    Ang = Angle(-10, 135, 0)
+}, -- Code 3 Solex [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -0.5, 88),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -0.5, 88),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -19.5, 88.125),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -19.5, 88.125),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Federal Signal Integrity [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.75, 2, 87.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.75, 2, 87.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-30, -18, 88.125),
+    Ang = Angle(-10, 0, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(30, -18, 88.125),
+    Ang = Angle(-10, 180, 0)
+}, -- Federal Signal Integrity [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.75, 2, 87.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.75, 2, 87.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-30, -18, 88.125),
+    Ang = Angle(-10, 0, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(30, -18, 88.125),
+    Ang = Angle(-10, 180, 0),
+    Phase = "A"
+}, -- Federal Signal Legend [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -0.5, 88.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -0.5, 88.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -20, 88.75),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -20, 88.75),
+    Ang = Angle(-10, 135, 0)
+}, -- Federal Signal Legend [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -0.5, 88.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -0.5, 88.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -20, 88.75),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -20, 88.75),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Federal Signal Valor [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, 2, 87.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, 2, 87.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -27, 88.5),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -27, 88.5),
+    Ang = Angle(-10, 135, 0)
+}, -- Federal Signal Valor [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, 2, 87.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, 2, 87.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -27, 88.5),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -27, 88.5),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Federal Signal Vision SLR [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.5, 6, 87.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.5, 6, 87.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -25.5, 88.5),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -25.5, 88.5),
+    Ang = Angle(-10, 135, 0)
+}, -- Federal Signal Vision SLR [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.5, 6, 87.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.5, 6, 87.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -25.5, 88.5),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -25.5, 88.5),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Feniex Avatar [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, 1, 87.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, 1, 87.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -21, 88.5),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -21, 88.5),
+    Ang = Angle(-10, 135, 0)
+}, -- Feniex Avatar [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, 1, 87.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, 1, 87.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -21, 88.5),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -21, 88.5),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Whelen Justice [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -2, 87.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -2, 87.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -19, 88.5),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -19, 88.5),
+    Ang = Angle(-10, 135, 0)
+}, -- Whelen Justice [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -2, 87.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -2, 87.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -19, 88.5),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -19, 88.5),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Worklights [REAR] - Whelen Liberty SX [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -71.5, 88),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -71.5, 88),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -93.5, 87),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -93.5, 87),
+    Ang = Angle(-10, 135, 0)
+
+}, -- Whelen Liberty SX [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -71.5, 88),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -71.5, 88),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -93.5, 87),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -93.5, 87),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+
+}, -- Code 3 RX2700 [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-31.25, -76, 87.5),
+    Ang = Angle(-10, 0, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(31.25, -76, 87.5),
+    Ang = Angle(-10, 180, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -94, 87),
+    Ang = Angle(-10, 45, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -94, 87),
+    Ang = Angle(-10, 135, 0)
+}, -- Code 3 RX2700 [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-31.25, -76, 87.5),
+    Ang = Angle(-10, 0, 0),
+    Phase = "A"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(31.25, -76, 87.5),
+    Ang = Angle(-10, 180, 0),
+    Phase = "B"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -94, 87),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -94, 87),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Code 3 Solex [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -73.5, 88),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -73.5, 88),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -92, 87),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -92, 87),
+    Ang = Angle(-10, 135, 0)
+}, -- Code 3 Solex [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -73.5, 88),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -73.5, 88),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -92, 87),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -92, 87),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Federal Signal Integrity [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.75, -70.5, 88.25),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.75, -70.5, 88.25),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-30, -90.5, 87.25),
+    Ang = Angle(-10, 0, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(30, -90.5, 87.25),
+    Ang = Angle(-10, 180, 0)
+}, -- Federal Signal Integrity [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.75, -70.5, 88.25),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.75, -70.5, 88.25),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-30, -90.5, 87.25),
+    Ang = Angle(-10, 0, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(30, -90.5, 87.25),
+    Ang = Angle(-10, 180, 0),
+    Phase = "A"
+}, -- Federal Signal Legend [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -73, 88.75),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -73, 88.75),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -92.5, 87.5),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -92.5, 87.5),
+    Ang = Angle(-10, 135, 0)
+}, -- Federal Signal Legend [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -73, 88.75),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -73, 88.75),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-26, -92.5, 87.5),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(26, -92.5, 87.5),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Federal Signal Valor [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -61, 88.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -61, 88.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -89.5, 87.25),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -89.5, 87.25),
+    Ang = Angle(-10, 135, 0)
+}, -- Federal Signal Valor [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -61, 88.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -61, 88.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -89.5, 87.25),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -89.5, 87.25),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Federal Signal Vision SLR [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.5, -66, 88.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.5, -66, 88.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -92, 87),
+    Ang = Angle(-10, 90, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -92, 87),
+    Ang = Angle(-10, 90, 0)
+}, -- Federal Signal Vision SLR [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28.5, -66, 88.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28.5, -66, 88.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -92, 87),
+    Ang = Angle(-10, 90, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -92, 87),
+    Ang = Angle(-10, 90, 0),
+    Phase = "A"
+}, -- Feniex Avatar [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -71.5, 88),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -71.5, 88),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -93.5, 87),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -93.5, 87),
+    Ang = Angle(-10, 135, 0)
+}, -- Feniex Avatar [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -71.5, 88),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -71.5, 88),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-29, -93.5, 87),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(29, -93.5, 87),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
+}, -- Whelen Justice [STDY]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -74.5, 88.5),
+    Ang = Angle(-10, 315, 0)
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -74.5, 88.5),
+    Ang = Angle(-10, 225, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -91.5, 87.5),
+    Ang = Angle(-10, 45, 0)
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -91.5, 87.5),
+    Ang = Angle(-10, 135, 0)
+}, -- Whelen Justice [FLASH]
+{
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -74.5, 88.5),
+    Ang = Angle(-10, 315, 0),
+    Phase = "A"
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -74.5, 88.5),
+    Ang = Angle(-10, 225, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(-28, -91.5, 87.5),
+    Ang = Angle(-10, 45, 0),
+    Phase = "B"
+
+}, {
+    ID = "Soundoff 200L Worklight",
+    Scale = 1,
+    Pos = Vector(28, -91.5, 87.5),
+    Ang = Angle(-10, 135, 0),
+    Phase = "A"
 }}
 
 EMV.Selections = {{
@@ -1169,7 +2069,7 @@ EMV.Selections = {{
         Name = "None",
         Auto = {}
     }, {
-        Name = "CHP Whelen Liberty SX",
+        Name = "Whelen Liberty SX",
         Auto = {1}
     }, {
         Name = "Code 3 RX2700",
@@ -1197,12 +2097,72 @@ EMV.Selections = {{
         Auto = {9}
     }}
 }, {
+    Name = "Lightbar [FRONT] Worklights",
+    Options = {{
+        Name = "None",
+        Auto = {}
+    }, {
+        Name = "Whelen Liberty SX [STDY]",
+        Auto = {139, 140, 141, 142}
+    }, {
+        Name = "Whelen Liberty SX [FLASH]",
+        Auto = {143, 144, 145, 146}
+    }, {
+        Name = "Code 3 RX2700 [STDY]",
+        Auto = {147, 148, 149, 150}
+    }, {
+        Name = "Code 3 RX2700 [FLASH]",
+        Auto = {151, 152, 153, 154}
+    }, {
+        Name = "Code 3 Solex [STDY]",
+        Auto = {155, 156, 157, 158}
+    }, {
+        Name = "Code 3 Solex [FLASH]",
+        Auto = {159, 160, 161, 162}
+    }, {
+        Name = "Federal Signal Integrity [STDY]",
+        Auto = {163, 164, 165, 166}
+    }, {
+        Name = "Federal Signal Integrity [FLASH]",
+        Auto = {167, 168, 169, 170}
+    }, {
+        Name = "Federal Signal Legend [STDY]",
+        Auto = {171, 172, 173, 174}
+    }, {
+        Name = "Federal Signal Legend [FLASH]",
+        Auto = {175, 176, 177, 178}
+    }, {
+        Name = "Federal Signal Valor [STDY]",
+        Auto = {179, 180, 181, 182}
+    }, {
+        Name = "Federal Signal Valor [FLASH]",
+        Auto = {183, 184, 185, 186}
+    }, {
+        Name = "Federal Signal Vision SLR [STDY]",
+        Auto = {187, 188, 189, 190}
+    }, {
+        Name = "Federal Signal Vision SLR [FLASH]",
+        Auto = {191, 192, 193, 194}
+    }, {
+        Name = "Feniex Avatar [STDY]",
+        Auto = {195, 196, 197, 198}
+    }, {
+        Name = "Feniex Avatar [FLASH]",
+        Auto = {199, 200, 201, 202}
+    }, {
+        Name = "Whelen Justice [STDY]",
+        Auto = {203, 204, 205, 206}
+    }, {
+        Name = "Whelen Justice [FLASH]",
+        Auto = {207, 208, 209, 210}
+    }}
+}, {
     Name = "Lightbar [REAR]",
     Options = {{
         Name = "None",
         Auto = {}
     }, {
-        Name = "CHP Whelen Liberty SX",
+        Name = "Whelen Liberty SX",
         Auto = {10}
     }, {
         Name = "Code 3 RX2700",
@@ -1228,6 +2188,66 @@ EMV.Selections = {{
     }, {
         Name = "Whelen Justice",
         Auto = {18}
+    }}
+}, {
+    Name = "Lightbar [REAR] Worklights",
+    Options = {{
+        Name = "None",
+        Auto = {}
+    }, {
+        Name = "Whelen Liberty SX [STDY]",
+        Auto = {211, 212, 213, 214}
+    }, {
+        Name = "Whelen Liberty SX [FLASH]",
+        Auto = {215, 216, 217, 218}
+    }, {
+        Name = "Code 3 RX2700 [STDY]",
+        Auto = {219, 220, 221, 222}
+    }, {
+        Name = "Code 3 RX2700 [FLASH]",
+        Auto = {223, 224, 225, 226}
+    }, {
+        Name = "Code 3 Solex [STDY]",
+        Auto = {227, 228, 229, 230}
+    }, {
+        Name = "Code 3 Solex [FLASH]",
+        Auto = {231, 232, 233, 234}
+    }, {
+        Name = "Federal Signal Integrity [STDY]",
+        Auto = {235, 236, 237, 238}
+    }, {
+        Name = "Federal Signal Integrity [FLASH]",
+        Auto = {239, 240, 241, 242}
+    }, {
+        Name = "Federal Signal Legend [STDY]",
+        Auto = {243, 244, 245, 246}
+    }, {
+        Name = "Federal Signal Legend [FLASH]",
+        Auto = {247, 248, 249, 250}
+    }, {
+        Name = "Federal Signal Valor [STDY]",
+        Auto = {251, 252, 253, 254}
+    }, {
+        Name = "Federal Signal Valor [FLASH]",
+        Auto = {255, 256, 257, 258}
+    }, {
+        Name = "Federal Signal Vision SLR [STDY]",
+        Auto = {259, 260, 261, 262}
+    }, {
+        Name = "Federal Signal Vision SLR [FLASH]",
+        Auto = {263, 264, 265, 266}
+    }, {
+        Name = "Feniex Avatar [STDY]",
+        Auto = {267, 268, 269, 270}
+    }, {
+        Name = "Feniex Avatar [FLASH]",
+        Auto = {271, 272, 273, 274}
+    }, {
+        Name = "Whelen Justice [STDY]",
+        Auto = {275, 276, 277, 278}
+    }, {
+        Name = "Whelen Justice [FLASH]",
+        Auto = {279, 280, 281, 282}
     }}
 }, {
     Name = "Position Markers",
@@ -1328,25 +2348,25 @@ EMV.Selections = {{
     {
         Name = "Bullbar V2 - Whelen Dominator 8",
         Auto = {130}
-    },{
+    }, {
         Name = "Bullbar V2 - Juluen EdgeSaber LED",
         Auto = {131, 132}
-    },{
+    }, {
         Name = "Bullbar V2 - Whelen LINZ6",
         Auto = {137, 138}
-    },{
+    }, {
         Name = "Bullbar V2 - Soundoff 200L Worklight [FLASH]",
         Auto = {133, 134}
-    },{
+    }, {
         Name = "Bullbar V2 - Soundoff 200L Worklight [STDY]",
         Auto = {135, 136}
-    },{
+    }, {
         Name = "Bullbar V2 - Whelen Dominator 8 & Juluen EdgeSaber LED",
         Auto = {130, 131, 132}
-    },{
+    }, {
         Name = "Bullbar V2 - Whelen Dominator 8 & Soundoff 200L Worklight [FLASH]",
         Auto = {130, 133, 134}
-    },{
+    }, {
         Name = "Bullbar V2 - Whelen Dominator 8 & Soundoff 200L Worklight [STDY]",
         Auto = {130, 135, 136}
     }, {
@@ -1365,25 +2385,25 @@ EMV.Selections = {{
     {
         Name = "Bullbar 2 V2 - Whelen Dominator 8",
         Auto = {121}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Juluen EdgeSaber LED",
         Auto = {122, 123}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Whelen LINZ6",
         Auto = {128, 129}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Soundoff 200L Worklight [FLASH]",
         Auto = {124, 125}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Soundoff 200L Worklight [STDY]",
         Auto = {126, 127}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Whelen Dominator 8 & Juluen EdgeSaber LED",
         Auto = {121, 122, 123}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Whelen Dominator 8 & Soundoff 200L Worklight [FLASH]",
         Auto = {121, 124, 125}
-    },{
+    }, {
         Name = "Bullbar 2 V2 - Whelen Dominator 8 & Soundoff 200L Worklight [STDY]",
         Auto = {121, 126, 127}
     }, {

@@ -121,7 +121,7 @@ EMV.Patterns = {
 }
 
 EMV.Auto = {{
-    ID = "CHP Whelen Liberty SX",
+    ID = "Whelen Liberty SX",
     Scale = 1,
     Pos = Vector(0, 25, 93),
     Ang = Angle(0, 90, 0),
@@ -504,7 +504,7 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(-15, 152, 35),
     Ang = Angle(0, 270, 180)
-}, -- CHP Whelen Liberty SX [STDY]
+}, -- Whelen Liberty SX [STDY]
 {
     ID = "Soundoff 200L Worklight",
     Scale = 1,
@@ -525,7 +525,7 @@ EMV.Auto = {{
     Scale = 1,
     Pos = Vector(31, 15, 92.25),
     Ang = Angle(-10, 135, 0)
-}, -- CHP Whelen Liberty SX [FLASH]
+}, -- Whelen Liberty SX [FLASH]
 {
     ID = "Soundoff 200L Worklight",
     Scale = 1,
@@ -1087,7 +1087,7 @@ EMV.Selections = {{
         Name = "None",
         Auto = {}
     }, {
-        Name = "CHP Whelen Liberty SX",
+        Name = "Whelen Liberty SX",
         Auto = {1}
     }, {
         Name = "Code 3 RX2700",
@@ -1124,10 +1124,10 @@ EMV.Selections = {{
         Name = "None",
         Auto = {}
     }, {
-        Name = "CHP Whelen Liberty SX [STDY]",
+        Name = "Whelen Liberty SX [STDY]",
         Auto = {55, 56, 57, 58}
     }, {
-        Name = "CHP Whelen Liberty SX [FLASH]",
+        Name = "Whelen Liberty SX [FLASH]",
         Auto = {59, 60, 61, 62}
     }, {
         Name = "Code 3 RX2700 [STDY]",
