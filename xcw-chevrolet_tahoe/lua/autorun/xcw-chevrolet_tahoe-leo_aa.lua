@@ -43,2025 +43,2027 @@ EMV.BodyGroups = {{0, 0}, -- Body
 {20, 0} -- clamped2
 }
 
-EMV.Auto = {{
-    ID = "Whelen Liberty SX",
-    Scale = 1,
-    Pos = Vector(0, -10, 88.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Code 3 RX2700",
-    Scale = 1,
-    Pos = Vector(0, -10, 88.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Code 3 Solex",
-    Scale = 1,
-    Pos = Vector(0, -10, 86),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Integrity",
-    Scale = 1,
-    Pos = Vector(0, -10, 88.25),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Legend",
-    Scale = 1,
-    Pos = Vector(0, -10, 89.75),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Valor",
-    Scale = 1,
-    Pos = Vector(0, -10, 89.25),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Vision SLR",
-    Scale = 1,
-    Pos = Vector(0, -10, 90),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Feniex Avatar",
-    Scale = 1,
-    Pos = Vector(0, -10, 85.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Whelen Justice",
-    Scale = 1,
-    Pos = Vector(0, -10, 90.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Whelen Liberty SX",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 88.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Code 3 RX2700",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 88.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Code 3 Solex",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 86),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Integrity",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 88.25),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Legend",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 89.75),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Valor",
-    Scale = 1,
-    Pos = Vector(0, -72.5, 89.75),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Vision SLR",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 90),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Feniex Avatar",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 85.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Whelen Justice",
-    Scale = 1,
-    Pos = Vector(0, -82.5, 90.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- front - left
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-6.5, 115, 19),
-    Ang = Angle(90, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- front - right
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(8.25, 115, 19),
-    Ang = Angle(90, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- rear - left
-    ID = "Federal Signal MicroPulse",
-    Scale = 0.75,
-    Pos = Vector(12, -113.2, 46),
-    Ang = Angle(90, 180, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- rear - right
-    ID = "Federal Signal MicroPulse",
-    Scale = 0.75,
-    Pos = Vector(-13.2, -113.2, 46),
-    Ang = Angle(90, 180, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- left - front
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-44.5, 97, 41.5),
-    Ang = Angle(0, 70, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-
-}, {
-    -- left - rear
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-45.125, -97.5, 41.5),
-    Ang = Angle(0, 95, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- right - front
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(45.75, 94.5, 41.5),
-    Ang = Angle(0, -70, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-
-}, {
-    -- right - rear
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(44.8625, -100, 41.5),
-    Ang = Angle(0, -95, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- front - left
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-6.5, 115, 19),
-    Ang = Angle(90, 0, 0),
-    Phase = "A",
-    Color1 = "WHITE"
-}, {
-    -- front - right
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(8.25, 115, 19),
-    Ang = Angle(90, 0, 0),
-    Phase = "B",
-    Color1 = "WHITE"
-}, {
-    -- rear - left
-    ID = "Whelen Ion",
-    Scale = 0.75,
-    Pos = Vector(12, -113.2, 46),
-    Ang = Angle(90, 180, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- rear - right
-    ID = "Whelen Ion",
-    Scale = 0.75,
-    Pos = Vector(-13.2, -113.2, 46),
-    Ang = Angle(90, 180, 0),
-    Phase = "A",
-    Color1 = Color1
-}, {
-    -- left - front
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-45, 94.5, 41.5),
-    Ang = Angle(0, 70, 0),
-    Phase = "B",
-    Color1 = Color1
-
-}, {
-    -- left - rear
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-44.5, -97.5, 41.5),
-    Ang = Angle(0, 95, 0),
-    Phase = "A",
-    Color1 = Color1
-}, {
-    -- right - front
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(45, 94.5, 41.5),
-    Ang = Angle(0, -70, 0),
-    Phase = "B",
-    Color1 = Color1
-
-}, {
-    -- right - rear
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(44.5, -97.5, 41.5),
-    Ang = Angle(0, -95, 0),
-    Phase = "A",
-    Color1 = Color1
-}, {
-    -- front - left
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-6.5, 115, 19),
-    Ang = Angle(90, 0, 0),
-    Color1 = "WHITE",
-    Color2 = Color2
-}, {
-    -- front - right
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(8.25, 115, 19),
-    Ang = Angle(90, 0, 0),
-    Color1 = "WHITE",
-    Color2 = Color2
-}, {
-    -- rear - left
-    ID = "Whelen Ion Split",
-    Scale = 0.75,
-    Pos = Vector(12, -113.2, 46),
-    Ang = Angle(90, 180, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- rear - right
-    ID = "Whelen Ion Split",
-    Scale = 0.75,
-    Pos = Vector(-13.2, -113.2, 46),
-    Ang = Angle(90, 180, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- left - front
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-45, 94.5, 41.5),
-    Ang = Angle(0, 70, 0),
-    Color1 = Color1,
-    Color2 = Color2
-
-}, {
-    -- left - rear
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-44.5, -97.5, 41.5),
-    Ang = Angle(0, 95, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- right - front
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(45, 94.5, 41.5),
-    Ang = Angle(0, -70, 0),
-    Color1 = Color1,
-    Color2 = Color2
-
-}, {
-    -- right - rear
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(44.5, -97.5, 41.5),
-    Ang = Angle(0, -95, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "TDM Front Interior Lightbar",
-    Scale = 1.1,
-    Pos = Vector(0, 28, 78),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Federal Signal Viper",
-    Scale = 1,
-    Pos = Vector(0, 48.75, 65),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Tomar 200S Rear Cali",
-    Scale = 0.8,
-    Pos = Vector(0, -100, 76.5),
-    Ang = Angle(0, 270, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -r1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-6.5, 114, 39.5),
-    Ang = Angle(0, 5, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -l1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(7.5, 114, 39.5),
-    Ang = Angle(0, -5, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -r2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-15.5, 113.125, 39.5),
-    Ang = Angle(0, 5, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -l2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(17.5, 113.125, 39.5),
-    Ang = Angle(0, -5, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -r1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-6.5, 113.5, 38.5),
-    Ang = Angle(0, 5, 0),
-    Phase = "A",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -l1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(6.5, 113.5, 38.5),
-    Ang = Angle(0, -5, 0),
-    Phase = "A",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -r2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-15.5, 112.75, 38.5),
-    Ang = Angle(0, 5, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- grill -l2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(15.5, 112.75, 38.5),
-    Ang = Angle(0, -5, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- grill -r1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-6.5, 113.5, 38.5),
-    Ang = Angle(0, 5, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -l1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(6.5, 113.5, 38.5),
-    Ang = Angle(0, -5, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -r2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-15.5, 112.75, 38.5),
-    Ang = Angle(0, 5, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- grill -l2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(15.5, 112.75, 38.5),
-    Ang = Angle(0, -5, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-46.125, 38, 17),
-    Ang = Angle(0, 80, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-46.75, 14.5, 17.1),
-    Ang = Angle(0, 90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -3
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-46.75, -9, 17.5),
-    Ang = Angle(0, 90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -4
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-47.25, -32.5, 17.9),
-    Ang = Angle(0, 100, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(46.125, 38, 17),
-    Ang = Angle(0, -80, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(46.75, 14.5, 17.1),
-    Ang = Angle(0, -90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -3
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(46.75, -9, 17.5),
-    Ang = Angle(0, -90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -4
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(47.25, -32.5, 17.9),
-    Ang = Angle(0, -100, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-46.125, 38, 16),
-    Ang = Angle(0, 80, 0),
-    Phase = "A",
-    Color1 = Color1
-}, {
-    -- runningboard -left -2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-46.75, 14.5, 16.1),
-    Ang = Angle(0, 90, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- runningboard -left -3
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-46.75, -9, 16.5),
-    Ang = Angle(0, 90, 0),
-    Phase = "A",
-    Color1 = Color1
-
-}, {
-    -- runningboard -left -4
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-47.25, -32.5, 16.9),
-    Ang = Angle(0, 100, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- runningboard -right -1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(46.125, 38, 16),
-    Ang = Angle(0, -80, 0),
-    Phase = "A",
-    Color1 = Color1
-
-}, {
-    -- runningboard -right -2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(46.75, 14.5, 16.1),
-    Ang = Angle(0, -90, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- runningboard -right -3
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(46.75, -9, 16.5),
-    Ang = Angle(0, -90, 0),
-    Phase = "A",
-    Color1 = Color1
-}, {
-    -- runningboard -right -4
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(47.25, -32.5, 16.9),
-    Ang = Angle(0, -100, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- runningboard -left -1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-46.125, 38, 16),
-    Ang = Angle(0, 80, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-46.75, 14.5, 16.1),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -left -3
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-46.75, -9, 16.5),
-    Ang = Angle(0, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-
-}, {
-    -- runningboard -left -4
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-47.25, -32.5, 16.9),
-    Ang = Angle(0, 100, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(46.125, 38, 16),
-    Ang = Angle(0, -80, 0),
-    Color1 = Color1,
-    Color2 = Color2
-
-}, {
-    -- runningboard -right -2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(46.75, 14.5, 16.1),
-    Ang = Angle(0, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -3
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(46.75, -9, 16.5),
-    Ang = Angle(0, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- runningboard -right -4
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(47.25, -32.5, 16.9),
-    Ang = Angle(0, -100, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -r1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-6.5, 120, 42.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -l1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(7.5, 120, 42.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -r2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-15.5, 120, 42.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -l2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(17.5, 120, 42.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -s1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-23.5, 122.75, 29.5),
-    Ang = Angle(90, 90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -s2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(23.5, 120.75, 29.5),
-    Ang = Angle(90, -90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -r1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-6.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Phase = "A",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -l1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(6.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Phase = "A",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -r2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-15.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar1 -l2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(15.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar1 -s1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-23.5, 121.9, 31),
-    Ang = Angle(90, 90, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar1 -s2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(23.5, 121.9, 31),
-    Ang = Angle(90, -90, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar1 -r1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-6.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -l1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(6.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -r2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-15.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -l2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(15.5, 120, 41.8),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -s1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-23.5, 121.9, 31),
-    Ang = Angle(90, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar1 -s2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(23.5, 121.9, 31),
-    Ang = Angle(90, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -r1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-6.5, 119, 51.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -l1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(7.5, 119, 51.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -r2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-15.5, 119, 51.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -l2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(17.5, 119, 51.725),
-    Ang = Angle(0, 0, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -s1
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(-22.5, 122.75, 33),
-    Ang = Angle(90, 90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -s2
-    ID = "Federal Signal MicroPulse",
-    Scale = 1,
-    Pos = Vector(22.5, 120.75, 33),
-    Ang = Angle(90, -90, 0),
-    Phase = "S2",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -r1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-6.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Phase = "A",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -l1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(6.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Phase = "A",
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -r2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-15.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar2 -l2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(15.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar2 -s1
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(-22, 121.9, 34),
-    Ang = Angle(90, 90, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar2 -s2
-    ID = "Whelen Ion",
-    Scale = 1,
-    Pos = Vector(22.25, 121.9, 34),
-    Ang = Angle(90, -90, 0),
-    Phase = "B",
-    Color1 = Color1
-}, {
-    -- bullbar2 -r1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-6.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -l1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(6.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -r2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-15.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -l2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(15.5, 119, 50.55),
-    Ang = Angle(0, 0, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -s1
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(-22, 121.9, 34),
-    Ang = Angle(90, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    -- bullbar2 -s2
-    ID = "Whelen Ion Split",
-    Scale = 1,
-    Pos = Vector(22.25, 121.9, 34),
-    Ang = Angle(90, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, -- Runningboard Lights - Whelen Tracer 5
-{
-    ID = "Whelen Tracer 5",
-    Scale = 1,
-    Pos = Vector(40, 2, 20),
-    Ang = Angle(-0.5, 270, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, {
-    ID = "Whelen Tracer 5",
-    Scale = 1,
-    Pos = Vector(-40, 2, 20),
-    Ang = Angle(0.5, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, -- Liftgate Lights
-{
-    ID = "Whelen Tracer 5",
-    Scale = 1,
-    Pos = Vector(0, -112, 34),
-    Ang = Angle(0, 180, 0),
-    Color1 = Color1,
-    Color2 = Color2
-}, -- Bullbar 2 V2
-{
-    ID = "Whelen Dominator 8",
-    Scale = 1,
-    Pos = Vector(0, 123, 39.25),
-    Ang = Angle(0, 0, 180),
-    Color1 = Color1,
-    Color2 = Color2
-}, -- Juluen EdgeSaber LED
-{
-    ID = "Juluen EdgeSaber LED",
-    Scale = 1,
-    Pos = Vector(22.2, 120.5, 32),
-    Ang = Angle(90, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "TRIPLEA"
-}, {
-    ID = "Juluen EdgeSaber LED",
-    Scale = 1,
-    Pos = Vector(-21.8, 120.5, 32),
-    Ang = Angle(90, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "TRIPLEB"
-}, -- FLASH
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(15, 120.5, 32.5),
-    Ang = Angle(0, 270, 180),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-15, 120.5, 32.5),
-    Ang = Angle(0, 270, 180),
-    Phase = "B"
-}, -- STDY
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(15, 120.5, 32.5),
-    Ang = Angle(0, 270, 180)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-15, 120.5, 32.5),
-    Ang = Angle(0, 270, 180)
-}, -- Whelen LINZ6
-{
-    ID = "Whelen LINZ6",
-    Scale = 1,
-    Pos = Vector(22.2, 120.5, 32),
-    Ang = Angle(90, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "B"
-}, {
-    ID = "Whelen LINZ6",
-    Scale = 1,
-    Pos = Vector(-21.8, 120.5, 32),
-    Ang = Angle(90, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "A"
-}, -- Bullbar V2
-{
-    ID = "Whelen Dominator 8",
-    Scale = 1,
-    Pos = Vector(0, 123, 32.5),
-    Ang = Angle(0, 0, 180),
-    Color1 = Color1,
-    Color2 = Color2
-}, -- Juluen EdgeSaber LED
-{
-    ID = "Juluen EdgeSaber LED",
-    Scale = 1,
-    Pos = Vector(22.2, 120, 31.25),
-    Ang = Angle(90, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "TRIPLEA"
-}, {
-    ID = "Juluen EdgeSaber LED",
-    Scale = 1,
-    Pos = Vector(-21.8, 120, 31.25),
-    Ang = Angle(90, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "TRIPLEB"
-}, -- FLASH
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(15, 120.5, 27),
-    Ang = Angle(0, 270, 180),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-15, 120.5, 27),
-    Ang = Angle(0, 270, 180),
-    Phase = "B"
-}, -- STDY
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(15, 120.5, 27),
-    Ang = Angle(0, 270, 180)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-15, 120.5, 27),
-    Ang = Angle(0, 270, 180)
-}, -- Whelen LINZ6
-{
-    ID = "Whelen LINZ6",
-    Scale = 1,
-    Pos = Vector(23.75, 122, 31.25),
-    Ang = Angle(90, -90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "B"
-}, {
-    ID = "Whelen LINZ6",
-    Scale = 1,
-    Pos = Vector(-23.75, 122, 31.25),
-    Ang = Angle(90, 90, 0),
-    Color1 = Color1,
-    Color2 = Color2,
-    Phase = "A"
-}, -- Worklights [FRONT] --Whelen Liberty SX [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, 1, 88),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, 1, 88),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -21, 88.125),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -21, 88.125),
-    Ang = Angle(-10, 135, 0)
-
-}, -- Whelen Liberty SX [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, 1, 88),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, 1, 88),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -21, 88.125),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -21, 88.125),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-
-}, -- Code 3 RX2700 [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-31.25, -3, 87.5),
-    Ang = Angle(-10, 0, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(31.25, -3, 87.5),
-    Ang = Angle(-10, 180, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -21, 88.25),
-    Ang = Angle(-10, 45, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -21, 88.25),
-    Ang = Angle(-10, 135, 0)
-}, -- Code 3 RX2700 [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-31.25, -3, 87.5),
-    Ang = Angle(-10, 0, 0),
-    Phase = "A"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(31.25, -3, 87.5),
-    Ang = Angle(-10, 180, 0),
-    Phase = "B"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -21, 88.25),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -21, 88.25),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Code 3 Solex [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -0.5, 88),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -0.5, 88),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -19.5, 88.125),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -19.5, 88.125),
-    Ang = Angle(-10, 135, 0)
-}, -- Code 3 Solex [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -0.5, 88),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -0.5, 88),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -19.5, 88.125),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -19.5, 88.125),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Federal Signal Integrity [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.75, 2, 87.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.75, 2, 87.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-30, -18, 88.125),
-    Ang = Angle(-10, 0, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(30, -18, 88.125),
-    Ang = Angle(-10, 180, 0)
-}, -- Federal Signal Integrity [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.75, 2, 87.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.75, 2, 87.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-30, -18, 88.125),
-    Ang = Angle(-10, 0, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(30, -18, 88.125),
-    Ang = Angle(-10, 180, 0),
-    Phase = "A"
-}, -- Federal Signal Legend [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -0.5, 88.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -0.5, 88.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -20, 88.75),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -20, 88.75),
-    Ang = Angle(-10, 135, 0)
-}, -- Federal Signal Legend [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -0.5, 88.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -0.5, 88.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -20, 88.75),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -20, 88.75),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Federal Signal Valor [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, 2, 87.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, 2, 87.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -27, 88.5),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -27, 88.5),
-    Ang = Angle(-10, 135, 0)
-}, -- Federal Signal Valor [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, 2, 87.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, 2, 87.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -27, 88.5),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -27, 88.5),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Federal Signal Vision SLR [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.5, 6, 87.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.5, 6, 87.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -25.5, 88.5),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -25.5, 88.5),
-    Ang = Angle(-10, 135, 0)
-}, -- Federal Signal Vision SLR [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.5, 6, 87.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.5, 6, 87.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -25.5, 88.5),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -25.5, 88.5),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Feniex Avatar [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, 1, 87.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, 1, 87.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -21, 88.5),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -21, 88.5),
-    Ang = Angle(-10, 135, 0)
-}, -- Feniex Avatar [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, 1, 87.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, 1, 87.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -21, 88.5),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -21, 88.5),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Whelen Justice [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -2, 87.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -2, 87.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -19, 88.5),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -19, 88.5),
-    Ang = Angle(-10, 135, 0)
-}, -- Whelen Justice [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -2, 87.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -2, 87.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -19, 88.5),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -19, 88.5),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Worklights [REAR] - Whelen Liberty SX [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -71.5, 88),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -71.5, 88),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -93.5, 87),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -93.5, 87),
-    Ang = Angle(-10, 135, 0)
-
-}, -- Whelen Liberty SX [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -71.5, 88),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -71.5, 88),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -93.5, 87),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -93.5, 87),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-
-}, -- Code 3 RX2700 [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-31.25, -76, 87.5),
-    Ang = Angle(-10, 0, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(31.25, -76, 87.5),
-    Ang = Angle(-10, 180, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -94, 87),
-    Ang = Angle(-10, 45, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -94, 87),
-    Ang = Angle(-10, 135, 0)
-}, -- Code 3 RX2700 [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-31.25, -76, 87.5),
-    Ang = Angle(-10, 0, 0),
-    Phase = "A"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(31.25, -76, 87.5),
-    Ang = Angle(-10, 180, 0),
-    Phase = "B"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -94, 87),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -94, 87),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Code 3 Solex [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -73.5, 88),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -73.5, 88),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -92, 87),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -92, 87),
-    Ang = Angle(-10, 135, 0)
-}, -- Code 3 Solex [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -73.5, 88),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -73.5, 88),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -92, 87),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -92, 87),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Federal Signal Integrity [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.75, -70.5, 88.25),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.75, -70.5, 88.25),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-30, -90.5, 87.25),
-    Ang = Angle(-10, 0, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(30, -90.5, 87.25),
-    Ang = Angle(-10, 180, 0)
-}, -- Federal Signal Integrity [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.75, -70.5, 88.25),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.75, -70.5, 88.25),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-30, -90.5, 87.25),
-    Ang = Angle(-10, 0, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(30, -90.5, 87.25),
-    Ang = Angle(-10, 180, 0),
-    Phase = "A"
-}, -- Federal Signal Legend [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -73, 88.75),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -73, 88.75),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -92.5, 87.5),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -92.5, 87.5),
-    Ang = Angle(-10, 135, 0)
-}, -- Federal Signal Legend [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -73, 88.75),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -73, 88.75),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-26, -92.5, 87.5),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(26, -92.5, 87.5),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Federal Signal Valor [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -61, 88.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -61, 88.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -89.5, 87.25),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -89.5, 87.25),
-    Ang = Angle(-10, 135, 0)
-}, -- Federal Signal Valor [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -61, 88.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -61, 88.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -89.5, 87.25),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -89.5, 87.25),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Federal Signal Vision SLR [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.5, -66, 88.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.5, -66, 88.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -92, 87),
-    Ang = Angle(-10, 90, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -92, 87),
-    Ang = Angle(-10, 90, 0)
-}, -- Federal Signal Vision SLR [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28.5, -66, 88.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28.5, -66, 88.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -92, 87),
-    Ang = Angle(-10, 90, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -92, 87),
-    Ang = Angle(-10, 90, 0),
-    Phase = "A"
-}, -- Feniex Avatar [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -71.5, 88),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -71.5, 88),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -93.5, 87),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -93.5, 87),
-    Ang = Angle(-10, 135, 0)
-}, -- Feniex Avatar [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -71.5, 88),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -71.5, 88),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-29, -93.5, 87),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(29, -93.5, 87),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}, -- Whelen Justice [STDY]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -74.5, 88.5),
-    Ang = Angle(-10, 315, 0)
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -74.5, 88.5),
-    Ang = Angle(-10, 225, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -91.5, 87.5),
-    Ang = Angle(-10, 45, 0)
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -91.5, 87.5),
-    Ang = Angle(-10, 135, 0)
-}, -- Whelen Justice [FLASH]
-{
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -74.5, 88.5),
-    Ang = Angle(-10, 315, 0),
-    Phase = "A"
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -74.5, 88.5),
-    Ang = Angle(-10, 225, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(-28, -91.5, 87.5),
-    Ang = Angle(-10, 45, 0),
-    Phase = "B"
-
-}, {
-    ID = "Soundoff 200L Worklight",
-    Scale = 1,
-    Pos = Vector(28, -91.5, 87.5),
-    Ang = Angle(-10, 135, 0),
-    Phase = "A"
-}}
+EMV.Auto = {
+    {
+        ID = "Whelen Liberty SX",
+        Scale = 1,
+        Pos = Vector(0, -10, 88.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Code 3 RX2700",
+        Scale = 1,
+        Pos = Vector(0, -10, 88.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Code 3 Solex",
+        Scale = 1,
+        Pos = Vector(0, -10, 86),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Integrity",
+        Scale = 1,
+        Pos = Vector(0, -10, 88.25),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Legend",
+        Scale = 1,
+        Pos = Vector(0, -10, 89.75),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Valor",
+        Scale = 1,
+        Pos = Vector(0, -10, 89.25),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Vision SLR",
+        Scale = 1,
+        Pos = Vector(0, -10, 90),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Feniex Avatar",
+        Scale = 1,
+        Pos = Vector(0, -10, 85.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Whelen Justice",
+        Scale = 1,
+        Pos = Vector(0, -10, 90.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Whelen Liberty SX",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 88.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Code 3 RX2700",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 88.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Code 3 Solex",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 86),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Integrity",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 88.25),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Legend",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 89.75),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Valor",
+        Scale = 1,
+        Pos = Vector(0, -72.5, 89.75),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Vision SLR",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 90),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Feniex Avatar",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 85.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Whelen Justice",
+        Scale = 1,
+        Pos = Vector(0, -82.5, 90.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- front - left
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-6.5, 115, 19),
+        Ang = Angle(90, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- front - right
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(8.25, 115, 19),
+        Ang = Angle(90, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- rear - left
+        ID = "Federal Signal MicroPulse",
+        Scale = 0.75,
+        Pos = Vector(12, -113.2, 46),
+        Ang = Angle(90, 180, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- rear - right
+        ID = "Federal Signal MicroPulse",
+        Scale = 0.75,
+        Pos = Vector(-13.2, -113.2, 46),
+        Ang = Angle(90, 180, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- left - front
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-44.5, 97, 41.5),
+        Ang = Angle(0, 70, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+
+    }, {
+        -- left - rear
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-45.125, -97.5, 41.5),
+        Ang = Angle(0, 95, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- right - front
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(45.75, 94.5, 41.5),
+        Ang = Angle(0, -70, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+
+    }, {
+        -- right - rear
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(44.8625, -100, 41.5),
+        Ang = Angle(0, -95, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- front - left
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-6.5, 115, 19),
+        Ang = Angle(90, 0, 0),
+        Phase = "A",
+        Color1 = "WHITE"
+    }, {
+        -- front - right
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(8.25, 115, 19),
+        Ang = Angle(90, 0, 0),
+        Phase = "B",
+        Color1 = "WHITE"
+    }, {
+        -- rear - left
+        ID = "Whelen Ion",
+        Scale = 0.75,
+        Pos = Vector(12, -113.2, 46),
+        Ang = Angle(90, 180, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- rear - right
+        ID = "Whelen Ion",
+        Scale = 0.75,
+        Pos = Vector(-13.2, -113.2, 46),
+        Ang = Angle(90, 180, 0),
+        Phase = "A",
+        Color1 = Color1
+    }, {
+        -- left - front
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-45, 94.5, 41.5),
+        Ang = Angle(0, 70, 0),
+        Phase = "B",
+        Color1 = Color1
+
+    }, {
+        -- left - rear
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-44.5, -97.5, 41.5),
+        Ang = Angle(0, 95, 0),
+        Phase = "A",
+        Color1 = Color1
+    }, {
+        -- right - front
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(45, 94.5, 41.5),
+        Ang = Angle(0, -70, 0),
+        Phase = "B",
+        Color1 = Color1
+
+    }, {
+        -- right - rear
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(44.5, -97.5, 41.5),
+        Ang = Angle(0, -95, 0),
+        Phase = "A",
+        Color1 = Color1
+    }, {
+        -- front - left
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-6.5, 115, 19),
+        Ang = Angle(90, 0, 0),
+        Color1 = "WHITE",
+        Color2 = Color2
+    }, {
+        -- front - right
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(8.25, 115, 19),
+        Ang = Angle(90, 0, 0),
+        Color1 = "WHITE",
+        Color2 = Color2
+    }, {
+        -- rear - left
+        ID = "Whelen Ion Split",
+        Scale = 0.75,
+        Pos = Vector(12, -113.2, 46),
+        Ang = Angle(90, 180, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- rear - right
+        ID = "Whelen Ion Split",
+        Scale = 0.75,
+        Pos = Vector(-13.2, -113.2, 46),
+        Ang = Angle(90, 180, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- left - front
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-45, 94.5, 41.5),
+        Ang = Angle(0, 70, 0),
+        Color1 = Color1,
+        Color2 = Color2
+
+    }, {
+        -- left - rear
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-44.5, -97.5, 41.5),
+        Ang = Angle(0, 95, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- right - front
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(45, 94.5, 41.5),
+        Ang = Angle(0, -70, 0),
+        Color1 = Color1,
+        Color2 = Color2
+
+    }, {
+        -- right - rear
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(44.5, -97.5, 41.5),
+        Ang = Angle(0, -95, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "TDM Front Interior Lightbar",
+        Scale = 1.1,
+        Pos = Vector(0, 28, 78),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Federal Signal Viper",
+        Scale = 1,
+        Pos = Vector(0, 48.75, 65),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Tomar 200S Rear Cali",
+        Scale = 0.8,
+        Pos = Vector(0, -100, 76.5),
+        Ang = Angle(0, 270, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -r1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-6.5, 114, 39.5),
+        Ang = Angle(0, 5, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -l1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(7.5, 114, 39.5),
+        Ang = Angle(0, -5, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -r2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-15.5, 113.125, 39.5),
+        Ang = Angle(0, 5, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -l2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(17.5, 113.125, 39.5),
+        Ang = Angle(0, -5, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -r1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-6.5, 113.5, 38.5),
+        Ang = Angle(0, 5, 0),
+        Phase = "A",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -l1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(6.5, 113.5, 38.5),
+        Ang = Angle(0, -5, 0),
+        Phase = "A",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -r2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-15.5, 112.75, 38.5),
+        Ang = Angle(0, 5, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- grill -l2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(15.5, 112.75, 38.5),
+        Ang = Angle(0, -5, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- grill -r1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-6.5, 113.5, 38.5),
+        Ang = Angle(0, 5, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -l1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(6.5, 113.5, 38.5),
+        Ang = Angle(0, -5, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -r2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-15.5, 112.75, 38.5),
+        Ang = Angle(0, 5, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- grill -l2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(15.5, 112.75, 38.5),
+        Ang = Angle(0, -5, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-46.125, 38, 17),
+        Ang = Angle(0, 80, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-46.75, 14.5, 17.1),
+        Ang = Angle(0, 90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -3
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-46.75, -9, 17.5),
+        Ang = Angle(0, 90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -4
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-47.25, -32.5, 17.9),
+        Ang = Angle(0, 100, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(46.125, 38, 17),
+        Ang = Angle(0, -80, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(46.75, 14.5, 17.1),
+        Ang = Angle(0, -90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -3
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(46.75, -9, 17.5),
+        Ang = Angle(0, -90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -4
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(47.25, -32.5, 17.9),
+        Ang = Angle(0, -100, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-46.125, 38, 16),
+        Ang = Angle(0, 80, 0),
+        Phase = "A",
+        Color1 = Color1
+    }, {
+        -- runningboard -left -2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-46.75, 14.5, 16.1),
+        Ang = Angle(0, 90, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- runningboard -left -3
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-46.75, -9, 16.5),
+        Ang = Angle(0, 90, 0),
+        Phase = "A",
+        Color1 = Color1
+
+    }, {
+        -- runningboard -left -4
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-47.25, -32.5, 16.9),
+        Ang = Angle(0, 100, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- runningboard -right -1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(46.125, 38, 16),
+        Ang = Angle(0, -80, 0),
+        Phase = "A",
+        Color1 = Color1
+
+    }, {
+        -- runningboard -right -2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(46.75, 14.5, 16.1),
+        Ang = Angle(0, -90, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- runningboard -right -3
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(46.75, -9, 16.5),
+        Ang = Angle(0, -90, 0),
+        Phase = "A",
+        Color1 = Color1
+    }, {
+        -- runningboard -right -4
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(47.25, -32.5, 16.9),
+        Ang = Angle(0, -100, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- runningboard -left -1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-46.125, 38, 16),
+        Ang = Angle(0, 80, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-46.75, 14.5, 16.1),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -left -3
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-46.75, -9, 16.5),
+        Ang = Angle(0, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+
+    }, {
+        -- runningboard -left -4
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-47.25, -32.5, 16.9),
+        Ang = Angle(0, 100, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(46.125, 38, 16),
+        Ang = Angle(0, -80, 0),
+        Color1 = Color1,
+        Color2 = Color2
+
+    }, {
+        -- runningboard -right -2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(46.75, 14.5, 16.1),
+        Ang = Angle(0, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -3
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(46.75, -9, 16.5),
+        Ang = Angle(0, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- runningboard -right -4
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(47.25, -32.5, 16.9),
+        Ang = Angle(0, -100, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -r1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-6.5, 120, 42.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -l1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(7.5, 120, 42.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -r2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-15.5, 120, 42.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -l2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(17.5, 120, 42.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -s1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-23.5, 122.75, 29.5),
+        Ang = Angle(90, 90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -s2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(23.5, 120.75, 29.5),
+        Ang = Angle(90, -90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -r1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-6.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Phase = "A",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -l1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(6.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Phase = "A",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -r2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-15.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar1 -l2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(15.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar1 -s1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-23.5, 121.9, 31),
+        Ang = Angle(90, 90, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar1 -s2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(23.5, 121.9, 31),
+        Ang = Angle(90, -90, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar1 -r1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-6.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -l1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(6.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -r2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-15.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -l2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(15.5, 120, 41.8),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -s1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-23.5, 121.9, 31),
+        Ang = Angle(90, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar1 -s2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(23.5, 121.9, 31),
+        Ang = Angle(90, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -r1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-6.5, 119, 51.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -l1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(7.5, 119, 51.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -r2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-15.5, 119, 51.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -l2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(17.5, 119, 51.725),
+        Ang = Angle(0, 0, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -s1
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(-22.5, 122.75, 33),
+        Ang = Angle(90, 90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -s2
+        ID = "Federal Signal MicroPulse",
+        Scale = 1,
+        Pos = Vector(22.5, 120.75, 33),
+        Ang = Angle(90, -90, 0),
+        Phase = "S2",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -r1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-6.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Phase = "A",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -l1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(6.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Phase = "A",
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -r2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-15.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar2 -l2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(15.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar2 -s1
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(-22, 121.9, 34),
+        Ang = Angle(90, 90, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar2 -s2
+        ID = "Whelen Ion",
+        Scale = 1,
+        Pos = Vector(22.25, 121.9, 34),
+        Ang = Angle(90, -90, 0),
+        Phase = "B",
+        Color1 = Color1
+    }, {
+        -- bullbar2 -r1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-6.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -l1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(6.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -r2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-15.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -l2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(15.5, 119, 50.55),
+        Ang = Angle(0, 0, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -s1
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(-22, 121.9, 34),
+        Ang = Angle(90, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        -- bullbar2 -s2
+        ID = "Whelen Ion Split",
+        Scale = 1,
+        Pos = Vector(22.25, 121.9, 34),
+        Ang = Angle(90, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, -- Runningboard Lights - Whelen Tracer 5
+    {
+        ID = "Whelen Tracer 5",
+        Scale = 1,
+        Pos = Vector(40, 2, 20),
+        Ang = Angle(-0.5, 270, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, {
+        ID = "Whelen Tracer 5",
+        Scale = 1,
+        Pos = Vector(-40, 2, 20),
+        Ang = Angle(0.5, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, -- Liftgate Lights
+    {
+        ID = "Whelen Tracer 5",
+        Scale = 1,
+        Pos = Vector(0, -112, 34),
+        Ang = Angle(0, 180, 0),
+        Color1 = Color1,
+        Color2 = Color2
+    }, -- Bullbar 2 V2
+    {
+        ID = "Whelen Dominator 8",
+        Scale = 1,
+        Pos = Vector(0, 123, 39.25),
+        Ang = Angle(0, 0, 180),
+        Color1 = Color1,
+        Color2 = Color2
+    }, -- Juluen EdgeSaber LED
+    {
+        ID = "Juluen EdgeSaber LED",
+        Scale = 1,
+        Pos = Vector(22.2, 120.5, 32),
+        Ang = Angle(90, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "TRIPLEA"
+    }, {
+        ID = "Juluen EdgeSaber LED",
+        Scale = 1,
+        Pos = Vector(-21.8, 120.5, 32),
+        Ang = Angle(90, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "TRIPLEB"
+    }, -- FLASH
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(15, 120.5, 32.5),
+        Ang = Angle(0, 270, 180),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-15, 120.5, 32.5),
+        Ang = Angle(0, 270, 180),
+        Phase = "B"
+    }, -- STDY
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(15, 120.5, 32.5),
+        Ang = Angle(0, 270, 180)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-15, 120.5, 32.5),
+        Ang = Angle(0, 270, 180)
+    }, -- Whelen LINZ6
+    {
+        ID = "Whelen LINZ6",
+        Scale = 1,
+        Pos = Vector(22.2, 120.5, 32),
+        Ang = Angle(90, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "B"
+    }, {
+        ID = "Whelen LINZ6",
+        Scale = 1,
+        Pos = Vector(-21.8, 120.5, 32),
+        Ang = Angle(90, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "A"
+    }, -- Bullbar V2
+    {
+        ID = "Whelen Dominator 8",
+        Scale = 1,
+        Pos = Vector(0, 123, 32.5),
+        Ang = Angle(0, 0, 180),
+        Color1 = Color1,
+        Color2 = Color2
+    }, -- Juluen EdgeSaber LED
+    {
+        ID = "Juluen EdgeSaber LED",
+        Scale = 1,
+        Pos = Vector(22.2, 120, 31.25),
+        Ang = Angle(90, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "TRIPLEA"
+    }, {
+        ID = "Juluen EdgeSaber LED",
+        Scale = 1,
+        Pos = Vector(-21.8, 120, 31.25),
+        Ang = Angle(90, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "TRIPLEB"
+    }, -- FLASH
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(15, 120.5, 27),
+        Ang = Angle(0, 270, 180),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-15, 120.5, 27),
+        Ang = Angle(0, 270, 180),
+        Phase = "B"
+    }, -- STDY
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(15, 120.5, 27),
+        Ang = Angle(0, 270, 180)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-15, 120.5, 27),
+        Ang = Angle(0, 270, 180)
+    }, -- Whelen LINZ6
+    {
+        ID = "Whelen LINZ6",
+        Scale = 1,
+        Pos = Vector(23.75, 122, 31.25),
+        Ang = Angle(90, -90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "B"
+    }, {
+        ID = "Whelen LINZ6",
+        Scale = 1,
+        Pos = Vector(-23.75, 122, 31.25),
+        Ang = Angle(90, 90, 0),
+        Color1 = Color1,
+        Color2 = Color2,
+        Phase = "A"
+    }, -- Worklights [FRONT] --Whelen Liberty SX [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, 1, 88),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, 1, 88),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -21, 88.125),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -21, 88.125),
+        Ang = Angle(-10, 135, 0)
+
+    }, -- Whelen Liberty SX [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, 1, 88),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, 1, 88),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -21, 88.125),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -21, 88.125),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+
+    }, -- Code 3 RX2700 [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-31.25, -3, 87.5),
+        Ang = Angle(-10, 0, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(31.25, -3, 87.5),
+        Ang = Angle(-10, 180, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -21, 88.25),
+        Ang = Angle(-10, 45, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -21, 88.25),
+        Ang = Angle(-10, 135, 0)
+    }, -- Code 3 RX2700 [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-31.25, -3, 87.5),
+        Ang = Angle(-10, 0, 0),
+        Phase = "A"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(31.25, -3, 87.5),
+        Ang = Angle(-10, 180, 0),
+        Phase = "B"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -21, 88.25),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -21, 88.25),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Code 3 Solex [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -0.5, 88),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -0.5, 88),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -19.5, 88.125),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -19.5, 88.125),
+        Ang = Angle(-10, 135, 0)
+    }, -- Code 3 Solex [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -0.5, 88),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -0.5, 88),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -19.5, 88.125),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -19.5, 88.125),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Federal Signal Integrity [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.75, 2, 87.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.75, 2, 87.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-30, -18, 88.125),
+        Ang = Angle(-10, 0, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(30, -18, 88.125),
+        Ang = Angle(-10, 180, 0)
+    }, -- Federal Signal Integrity [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.75, 2, 87.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.75, 2, 87.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-30, -18, 88.125),
+        Ang = Angle(-10, 0, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(30, -18, 88.125),
+        Ang = Angle(-10, 180, 0),
+        Phase = "A"
+    }, -- Federal Signal Legend [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -0.5, 88.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -0.5, 88.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -20, 88.75),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -20, 88.75),
+        Ang = Angle(-10, 135, 0)
+    }, -- Federal Signal Legend [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -0.5, 88.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -0.5, 88.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -20, 88.75),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -20, 88.75),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Federal Signal Valor [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, 2, 87.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, 2, 87.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -27, 88.5),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -27, 88.5),
+        Ang = Angle(-10, 135, 0)
+    }, -- Federal Signal Valor [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, 2, 87.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, 2, 87.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -27, 88.5),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -27, 88.5),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Federal Signal Vision SLR [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.5, 6, 87.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.5, 6, 87.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -25.5, 88.5),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -25.5, 88.5),
+        Ang = Angle(-10, 135, 0)
+    }, -- Federal Signal Vision SLR [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.5, 6, 87.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.5, 6, 87.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -25.5, 88.5),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -25.5, 88.5),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Feniex Avatar [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, 1, 87.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, 1, 87.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -21, 88.5),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -21, 88.5),
+        Ang = Angle(-10, 135, 0)
+    }, -- Feniex Avatar [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, 1, 87.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, 1, 87.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -21, 88.5),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -21, 88.5),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Whelen Justice [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -2, 87.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -2, 87.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -19, 88.5),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -19, 88.5),
+        Ang = Angle(-10, 135, 0)
+    }, -- Whelen Justice [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -2, 87.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -2, 87.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -19, 88.5),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -19, 88.5),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Worklights [REAR] - Whelen Liberty SX [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -71.5, 88),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -71.5, 88),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -93.5, 87),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -93.5, 87),
+        Ang = Angle(-10, 135, 0)
+
+    }, -- Whelen Liberty SX [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -71.5, 88),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -71.5, 88),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -93.5, 87),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -93.5, 87),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+
+    }, -- Code 3 RX2700 [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-31.25, -76, 87.5),
+        Ang = Angle(-10, 0, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(31.25, -76, 87.5),
+        Ang = Angle(-10, 180, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -94, 87),
+        Ang = Angle(-10, 45, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -94, 87),
+        Ang = Angle(-10, 135, 0)
+    }, -- Code 3 RX2700 [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-31.25, -76, 87.5),
+        Ang = Angle(-10, 0, 0),
+        Phase = "A"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(31.25, -76, 87.5),
+        Ang = Angle(-10, 180, 0),
+        Phase = "B"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -94, 87),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -94, 87),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Code 3 Solex [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -73.5, 88),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -73.5, 88),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -92, 87),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -92, 87),
+        Ang = Angle(-10, 135, 0)
+    }, -- Code 3 Solex [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -73.5, 88),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -73.5, 88),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -92, 87),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -92, 87),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Federal Signal Integrity [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.75, -70.5, 88.25),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.75, -70.5, 88.25),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-30, -90.5, 87.25),
+        Ang = Angle(-10, 0, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(30, -90.5, 87.25),
+        Ang = Angle(-10, 180, 0)
+    }, -- Federal Signal Integrity [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.75, -70.5, 88.25),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.75, -70.5, 88.25),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-30, -90.5, 87.25),
+        Ang = Angle(-10, 0, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(30, -90.5, 87.25),
+        Ang = Angle(-10, 180, 0),
+        Phase = "A"
+    }, -- Federal Signal Legend [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -73, 88.75),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -73, 88.75),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -92.5, 87.5),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -92.5, 87.5),
+        Ang = Angle(-10, 135, 0)
+    }, -- Federal Signal Legend [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -73, 88.75),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -73, 88.75),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-26, -92.5, 87.5),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(26, -92.5, 87.5),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Federal Signal Valor [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -61, 88.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -61, 88.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -89.5, 87.25),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -89.5, 87.25),
+        Ang = Angle(-10, 135, 0)
+    }, -- Federal Signal Valor [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -61, 88.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -61, 88.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -89.5, 87.25),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -89.5, 87.25),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Federal Signal Vision SLR [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.5, -66, 88.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.5, -66, 88.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -92, 87),
+        Ang = Angle(-10, 90, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -92, 87),
+        Ang = Angle(-10, 90, 0)
+    }, -- Federal Signal Vision SLR [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28.5, -66, 88.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28.5, -66, 88.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -92, 87),
+        Ang = Angle(-10, 90, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -92, 87),
+        Ang = Angle(-10, 90, 0),
+        Phase = "A"
+    }, -- Feniex Avatar [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -71.5, 88),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -71.5, 88),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -93.5, 87),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -93.5, 87),
+        Ang = Angle(-10, 135, 0)
+    }, -- Feniex Avatar [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -71.5, 88),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -71.5, 88),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-29, -93.5, 87),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(29, -93.5, 87),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }, -- Whelen Justice [STDY]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -74.5, 88.5),
+        Ang = Angle(-10, 315, 0)
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -74.5, 88.5),
+        Ang = Angle(-10, 225, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -91.5, 87.5),
+        Ang = Angle(-10, 45, 0)
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -91.5, 87.5),
+        Ang = Angle(-10, 135, 0)
+    }, -- Whelen Justice [FLASH]
+    {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -74.5, 88.5),
+        Ang = Angle(-10, 315, 0),
+        Phase = "A"
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -74.5, 88.5),
+        Ang = Angle(-10, 225, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(-28, -91.5, 87.5),
+        Ang = Angle(-10, 45, 0),
+        Phase = "B"
+
+    }, {
+        ID = "Soundoff 200L Worklight",
+        Scale = 1,
+        Pos = Vector(28, -91.5, 87.5),
+        Ang = Angle(-10, 135, 0),
+        Phase = "A"
+    }
+}
 
 EMV.Selections = {{
     Name = "Lightbar [FRONT]",

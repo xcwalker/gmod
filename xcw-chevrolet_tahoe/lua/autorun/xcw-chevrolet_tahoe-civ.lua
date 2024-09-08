@@ -12,7 +12,7 @@ local SW = "S_WHITE"
 
 local EMV = {}
 
-EMV.Siren = 28
+EMV.Siren = 0
 EMV.Skin = 0
 EMV.Color = Color(91, 7, 13)
 
@@ -29,7 +29,7 @@ EMV.BodyGroups = {{0, 0}, -- Body
 {10, 0}, -- Lights_grill
 {11, 0}, -- Lights_rearbumper
 {12, 0}, -- Lights_rearwindow
-{13, 1}, -- Partition
+{13, 0}, -- Partition
 {14, 0}, -- Roofrack
 {15, 0}, -- Runningboards
 {16, 0}, -- Snorkle

@@ -12,12 +12,13 @@ local SW = "S_WHITE"
 
 local EMV = {}
 
-EMV.Siren = 28
+EMV.Siren = 0
 EMV.Skin = 0
-EMV.Color = Color(255, 93, 0)
+EMV.Color = Color(91, 7, 13)
+
 
 EMV.BodyGroups = {{0, 0}, -- Body
-{1, 1}, -- Ariels
+{1, 0}, -- Ariels
 {2, 6}, -- Bed
 {3, 0}, -- Nothing
 {4, 0}, -- Bullbar
@@ -32,7 +33,7 @@ EMV.BodyGroups = {{0, 0}, -- Body
 {13, 1}, -- Skirt
 {14, 0}, -- Tailgate
 {15, 0}, -- Wheelarches
-{16, 1}, -- Wheels
+{16, 0}, -- Wheels
 {17, 0}, -- clamped1
 {18, 0} -- clamped2
 }
