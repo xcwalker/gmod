@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+ "$basetexture" "models/lonewolfiescars/chev_impala/SKIN10"
+ "$bumpmap" "models/lonewolfiescars/shared/skin_nm"
+ //General
+	"$nodecal" "1" 	 //No decals will be shown on this texture
+	"$nocull" 1	//This makes the texture double sided
+	"$blendtintbybasealpha" 1	//Uses the alpha of the basetexture to control the tints
+	"$halflambert" 1	//Enables halflambert shading. (Wraps light around model)
+ 
+	//envmap params
+	"$envmap" "env_cubemap"		//Specifies the envmap to use
+	"$envmaptint" "[0.005 0.005 0.005]"		//Envmap tint in RGB format. Raise one value to increase the power of that colour
+ 
+	//phong params
+	"$phong" "1" 	//Enables phong shading
+	"$phongboost" "0.1"	//Increases the phong power
+	"$phongfresnelranges" "[.3 .5 1]" 	//The fresnel ranges for phong
+	"$phongexponent" 80	//Raise to decrease the area the phong takes up
+ 
+	//rimlight params
+	"$rimlight" "1"	//Enables rim light
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	
+	// Make color stay white
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+
+}
